@@ -1,0 +1,196 @@
+TpTrace Information: 0 : 8748, 1, 2020/09/18, 18:31:21.111, 48519617515, testhost.x86.exe, DefaultEngineInvoker.Invoke: Testhost process started with args :[--port, 50589],[--endpoint, 127.0.0.1:050589],[--role, client],[--parentprocessid, 12904],[--diag, C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\StrykerOutput\2020-09-18.18-31-09\logs\VsTest-log.host.20-09-18_18-31-20_72171_9.txt],[--tracelevel, 3],[--telemetryoptedin, false]
+TpTrace Information: 0 : 8748, 1, 2020/09/18, 18:31:21.118, 48519677091, testhost.x86.exe, DefaultEngineInvoker: Using Application Configuration: '<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <startup useLegacyV2RuntimeActivationPolicy="true">
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0" />
+  </startup>
+  <runtime>
+    <legacyUnhandledExceptionPolicy enabled="1" />
+    <legacyCorruptedStateExceptionsPolicy enabled="true" />
+    <!-- To get stacktrace information for portable and embedded pdbs when net472 installed on machine.
+          More details https://github.com/dotnet/designs/blob/master/accepted/diagnostics/debugging-with-symbols-and-sources.md#stack-traces -->
+    <AppContextSwitchOverrides value="Switch.System.Diagnostics.IgnorePortablePDBsInStackTraces=false" />
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <probing privatePath="Extensions" />
+      <!-- Test adapters compiled against version 11-14, need to be redirected to version 15. -->
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.VisualStudio.TestPlatform.ObjectModel" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="11.0.0.0-14.0.0.0" newVersion="15.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.VisualStudio.TestWindow.Interfaces" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="11.0.0.0-15.0.0.0" newVersion="16.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.VisualStudio.QualityTools.UnitTestFramework" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="10.1.0.0" newVersion="10.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.VisualStudio.QualityTools.Resource" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="10.0.0.0-15.0.0.0" newVersion="16.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.VisualStudio.QualityTools.ControllerObject" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="10.0.0.0-15.0.0.0" newVersion="16.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.VisualStudio.QualityTools.ExecutionCommon" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="10.0.0.0-15.0.0.0" newVersion="16.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.VisualStudio.QualityTools.Common" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="10.0.0.0-15.0.0.0" newVersion="16.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="10.0.0.0-15.0.0.0" newVersion="16.0.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+  <system.diagnostics>
+    <switches>
+      <add name="TpTraceLevel" value="0" />
+    </switches>
+  </system.diagnostics>
+  <appSettings>
+    <!--<add key="ExecutionThreadApartmentState" value ="MTA"/>-->
+    <!--<add key="TraceLogMaxFileSizeInKb" value ="10240"/>-->
+    <!-- MsTest Adapter Specific AppSettings -->
+    <!-- This flag is added to support test execution for net35 tests through TMI adapter. -->
+    <add key="TestProjectRetargetTo35Allowed" value="true" />
+  </appSettings>
+</configuration>'
+TpTrace Information: 0 : 8748, 1, 2020/09/18, 18:31:21.119, 48519684969, testhost.x86.exe, DefaultEngineInvoker.SetParentProcessExitCallback: Monitoring parent process with id: '12904'
+TpTrace Information: 0 : 8748, 1, 2020/09/18, 18:31:21.130, 48519798611, testhost.x86.exe, DefaultEngineInvoker.GetConnectionInfo: Initialize communication on endpoint address: '127.0.0.1:050589'
+TpTrace Information: 0 : 8748, 1, 2020/09/18, 18:31:21.183, 48520332717, testhost.x86.exe, SocketClient.Start: connecting to server endpoint: 127.0.0.1:050589
+TpTrace Information: 0 : 8748, 1, 2020/09/18, 18:31:21.199, 48520489775, testhost.x86.exe, DefaultEngineInvoker.Invoke: Start Request Processing.
+TpTrace Information: 0 : 8748, 10, 2020/09/18, 18:31:21.205, 48520549158, testhost.x86.exe, SocketClient.OnServerConnected: connected to server endpoint: 127.0.0.1:050589
+TpTrace Information: 0 : 8748, 9, 2020/09/18, 18:31:21.207, 48520571175, testhost.x86.exe, DefaultEngineInvoker.StartProcessingAsync: Connected to vstest.console, Starting process requests.
+TpTrace Information: 0 : 8748, 11, 2020/09/18, 18:31:21.410, 48522607354, testhost.x86.exe, TestRequestHandler.ProcessRequests: received message: (ProtocolVersion) -> 3
+TpTrace Information: 0 : 8748, 11, 2020/09/18, 18:31:21.466, 48523162010, testhost.x86.exe, TestRequestHandler.ProcessRequests: received message: (TestExecution.Initialize) -> [
+  "C:\\Users\\Cliente\\AppData\\Local\\Temp\\05szxyx1.0mq\\.vstest\\tools\\net451\\Extensions\\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll",
+  "C:\\Users\\Cliente\\AppData\\Local\\Temp\\05szxyx1.0mq\\.vstest\\tools\\net451\\Extensions\\Microsoft.TestPlatform.TestHostRuntimeProvider.dll",
+  "C:\\Users\\Cliente\\AppData\\Local\\Temp\\05szxyx1.0mq\\.vstest\\tools\\net451\\Extensions\\Microsoft.VisualStudio.TestPlatform.Extensions.Html.TestLogger.dll",
+  "C:\\Users\\Cliente\\AppData\\Local\\Temp\\05szxyx1.0mq\\.vstest\\tools\\net451\\Extensions\\Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.dll",
+  "C:\\Users\\Cliente\\source\\repos\\Calculadora\\Calc.Unit.Test\\bin\\Debug\\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll"
+]
+TpTrace Information: 0 : 8748, 11, 2020/09/18, 18:31:21.466, 48523163338, testhost.x86.exe, Execution Session Initialize.
+TpTrace Information: 0 : 8748, 11, 2020/09/18, 18:31:21.482, 48523320451, testhost.x86.exe, TestRequestHandler.ProcessRequests: received message: (TestExecution.StartWithSources) -> {
+  "AdapterSourceMap": {
+    "_none_": [
+      "C:\\Users\\Cliente\\source\\repos\\Calculadora\\Calc.Unit.Test\\bin\\Debug\\Calc.Unit.Test.dll"
+    ]
+  },
+  "RunSettings": "<RunSettings>\r\n  <RunConfiguration>\r\n    <DisableAppDomain>true</DisableAppDomain>\r\n    <MaxCpuCount>1</MaxCpuCount>\r\n    <TargetFrameworkVersion>.NETFramework,Version=v4.6</TargetFrameworkVersion>\r\n    <DesignMode>false</DesignMode>\r\n    <BatchSize>1</BatchSize>\r\n    <TargetPlatform>X86</TargetPlatform>\r\n    <CollectSourceInformation>True</CollectSourceInformation>\r\n  </RunConfiguration>\r\n  <LoggerRunSettings>\r\n    <Loggers>\r\n      <Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Users\\Cliente\\AppData\\Local\\Temp\\05szxyx1.0mq\\.vstest\\tools\\net451\\vstest.console.exe\" enabled=\"True\" />\r\n    </Loggers>\r\n  </LoggerRunSettings>\r\n</RunSettings>",
+  "TestExecutionContext": {
+    "FrequencyOfRunStatsChangeEvent": 1,
+    "RunStatsChangeEventTimeout": "00:00:01.5000000",
+    "InIsolation": false,
+    "KeepAlive": false,
+    "AreTestCaseLevelEventsRequired": false,
+    "IsDebug": false,
+    "TestCaseFilter": null,
+    "FilterOptions": null
+  },
+  "Package": null
+}
+TpTrace Information: 0 : 8748, 11, 2020/09/18, 18:31:21.482, 48523321797, testhost.x86.exe, Execution started.
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:21.501, 48523515549, testhost.x86.exe, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:21.504, 48523547624, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:21.505, 48523548837, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:21.505, 48523549715, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:21.505, 48523550544, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:21.505, 48523551355, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:21.567, 48524169820, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:21.567, 48524171523, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:21.567, 48524172485, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:21.567, 48524173326, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:21.567, 48524174112, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:21.567, 48524174929, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:21.581, 48524315486, testhost.x86.exe, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.MSTestExecutor
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:21.592, 48524427840, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:21.593, 48524429535, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:21.593, 48524430434, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:21.593, 48524431225, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:21.593, 48524432039, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:21.593, 48524432840, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:21.594, 48524444694, testhost.x86.exe, TestExecutorService: Loaded the extensions
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:21.703, 48525533591, testhost.x86.exe, TestDiscoveryManager: Discovering tests from sources C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\Calc.Unit.Test.dll
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:21.706, 48525557853, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:21.706, 48525559095, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:21.706, 48525560038, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:21.706, 48525560883, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:21.706, 48525561670, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:21.706, 48525562487, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.740, 48525902687, testhost.x86.exe, CollectSourceInformation value Found : True 
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.770, 48526199315, testhost.x86.exe, MSTestExecutor: Changed the working directory to C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.772, 48526222264, testhost.x86.exe, DesktopTestSourceHost.GetResolutionPaths(): Not running in portable mode
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.780, 48526305511, testhost.x86.exe, DesktopTestSourceHost.SetupHost(): Creating assembly resolver with resolution paths C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451.
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.816, 48526665888, testhost.x86.exe, MSTestDiscoverer: Found 6 tests from source C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\Calc.Unit.Test.dll
+TpTrace Error: 0 : 8748, 13, 2020/09/18, 18:31:21.826, 48526765692, testhost.x86.exe, C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\Calc.Unit.Test.dllMSTestDiscoverer:DiaSession: Could not create diaSession for source:. Reason:Falha ao carregar msdia
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.844, 48526948507, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.845, 48526951995, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a: Failed to load assembly.
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.845, 48526953550, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.845, 48526954248, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a: Resolved from cache.
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.865, 48527152476, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.865, 48527155785, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a: Failed to load assembly.
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.876, 48527267019, testhost.x86.exe, MSTestExecutor: Changed the working directory to C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.877, 48527269811, testhost.x86.exe, DesktopTestSourceHost.GetResolutionPaths(): Not running in portable mode
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.877, 48527270846, testhost.x86.exe, DesktopTestSourceHost.SetupHost(): Creating assembly resolver with resolution paths C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451.
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.877, 48527278582, testhost.x86.exe, Created unit-test runner C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\Calc.Unit.Test.dll
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.885, 48527351565, testhost.x86.exe, Sending test run statistics
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.915, 48527654351, testhost.x86.exe, Executing test Somar
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.957, 48528075559, testhost.x86.exe, Executed test Somar
+TpTrace Warning: 0 : 8748, 13, 2020/09/18, 18:31:21.963, 48528136677, testhost.x86.exe, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 8748, 13, 2020/09/18, 18:31:21.966, 48528162025, testhost.x86.exe, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 8748, 13, 2020/09/18, 18:31:21.966, 48528163995, testhost.x86.exe, TestRunCache: No test found corresponding to testResult '' in inProgress list.
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.966, 48528165764, testhost.x86.exe, Sending test run statistics
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.976, 48528260718, testhost.x86.exe, Sending test run statistics
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.976, 48528263731, testhost.x86.exe, Executing test Subtrair
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.976, 48528267969, testhost.x86.exe, Executed test Subtrair
+TpTrace Warning: 0 : 8748, 13, 2020/09/18, 18:31:21.976, 48528268834, testhost.x86.exe, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 8748, 13, 2020/09/18, 18:31:21.977, 48528270499, testhost.x86.exe, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 8748, 13, 2020/09/18, 18:31:21.977, 48528271188, testhost.x86.exe, TestRunCache: No test found corresponding to testResult '' in inProgress list.
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.977, 48528271804, testhost.x86.exe, Sending test run statistics
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.977, 48528274510, testhost.x86.exe, Sending test run statistics
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.977, 48528276589, testhost.x86.exe, Executing test Dividir
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.978, 48528280140, testhost.x86.exe, Executed test Dividir
+TpTrace Warning: 0 : 8748, 13, 2020/09/18, 18:31:21.978, 48528280989, testhost.x86.exe, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 8748, 13, 2020/09/18, 18:31:21.978, 48528281657, testhost.x86.exe, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 8748, 13, 2020/09/18, 18:31:21.978, 48528282273, testhost.x86.exe, TestRunCache: No test found corresponding to testResult '' in inProgress list.
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.978, 48528282870, testhost.x86.exe, Sending test run statistics
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.978, 48528285642, testhost.x86.exe, Sending test run statistics
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.978, 48528287681, testhost.x86.exe, Executing test Multiplicacao
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.979, 48528291136, testhost.x86.exe, Executed test Multiplicacao
+TpTrace Warning: 0 : 8748, 13, 2020/09/18, 18:31:21.979, 48528291874, testhost.x86.exe, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 8748, 13, 2020/09/18, 18:31:21.979, 48528292501, testhost.x86.exe, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 8748, 13, 2020/09/18, 18:31:21.979, 48528293092, testhost.x86.exe, TestRunCache: No test found corresponding to testResult '' in inProgress list.
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.979, 48528293684, testhost.x86.exe, Sending test run statistics
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.979, 48528296338, testhost.x86.exe, Sending test run statistics
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:21.979, 48528298340, testhost.x86.exe, Executing test SomarJuros
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:22.205, 48530546575, testhost.x86.exe, Executed test SomarJuros
+TpTrace Warning: 0 : 8748, 13, 2020/09/18, 18:31:22.205, 48530547869, testhost.x86.exe, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 8748, 13, 2020/09/18, 18:31:22.205, 48530548597, testhost.x86.exe, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 8748, 13, 2020/09/18, 18:31:22.205, 48530549246, testhost.x86.exe, TestRunCache: No test found corresponding to testResult '' in inProgress list.
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:22.205, 48530549891, testhost.x86.exe, Sending test run statistics
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:22.205, 48530553291, testhost.x86.exe, Sending test run statistics
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:22.206, 48530556530, testhost.x86.exe, Executing test SomarJuros2_Exception
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:22.214, 48530640271, testhost.x86.exe, Executed test SomarJuros2_Exception
+TpTrace Warning: 0 : 8748, 13, 2020/09/18, 18:31:22.214, 48530641454, testhost.x86.exe, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 8748, 13, 2020/09/18, 18:31:22.214, 48530642136, testhost.x86.exe, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 8748, 13, 2020/09/18, 18:31:22.214, 48530642750, testhost.x86.exe, TestRunCache: No test found corresponding to testResult '' in inProgress list.
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:22.214, 48530643373, testhost.x86.exe, Sending test run statistics
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:22.215, 48530648914, testhost.x86.exe, Executing cleanup methods.
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:22.218, 48530680222, testhost.x86.exe, Executed cleanup methods.
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:22.218, 48530681446, testhost.x86.exe, Executed tests belonging to source C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\Calc.Unit.Test.dll
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:22.219, 48530685787, testhost.x86.exe, Deleting deployment directory C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\TestResults\Deploy_Cliente 2020-09-18 18_31_21
+TpTrace Information: 0 : 8748, 13, 2020/09/18, 18:31:22.220, 48530699214, testhost.x86.exe, Deleted deployment directory C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\TestResults\Deploy_Cliente 2020-09-18 18_31_21
+TpTrace Information: 0 : 8748, 5, 2020/09/18, 18:31:22.225, 48530747739, testhost.x86.exe, Sending test run complete
+TpTrace Information: 0 : 8748, 11, 2020/09/18, 18:31:22.235, 48530846934, testhost.x86.exe, TestRequestHandler.ProcessRequests: received message: (TestSession.Terminate) -> null
+TpTrace Information: 0 : 8748, 11, 2020/09/18, 18:31:22.235, 48530848121, testhost.x86.exe, Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 8748, 1, 2020/09/18, 18:31:22.235, 48530852157, testhost.x86.exe, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:050589
+TpTrace Information: 0 : 8748, 11, 2020/09/18, 18:31:22.235, 48530852216, testhost.x86.exe, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:050589
+TpTrace Information: 0 : 8748, 11, 2020/09/18, 18:31:22.235, 48530853665, testhost.x86.exe, SocketClient: Stop: Cancellation requested. Stopping message loop.
+TpTrace Information: 0 : 8748, 11, 2020/09/18, 18:31:22.236, 48530855478, testhost.x86.exe, Closing the connection !
+TpTrace Information: 0 : 8748, 1, 2020/09/18, 18:31:22.235, 48530852998, testhost.x86.exe, SocketClient: Stop: Cancellation requested. Stopping message loop.
+TpTrace Information: 0 : 8748, 11, 2020/09/18, 18:31:22.236, 48530859806, testhost.x86.exe, SocketClient.PrivateStop: Stop communication from server endpoint: 127.0.0.1:050589, error:

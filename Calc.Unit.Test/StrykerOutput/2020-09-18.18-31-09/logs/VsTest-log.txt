@@ -1,0 +1,1274 @@
+TpTrace Information: 0 : 11956, 1, 2020/09/18, 18:31:17.939, 48487895288, vstest.console.exe, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 11956, 1, 2020/09/18, 18:31:17.943, 48487926108, vstest.console.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 11956, 1, 2020/09/18, 18:31:17.943, 48487929216, vstest.console.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 11956, 1, 2020/09/18, 18:31:17.943, 48487930208, vstest.console.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 11956, 1, 2020/09/18, 18:31:17.943, 48487931089, vstest.console.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 11956, 1, 2020/09/18, 18:31:17.948, 48487977788, vstest.console.exe, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Resolving assembly.
+TpTrace Information: 0 : 11956, 1, 2020/09/18, 18:31:17.963, 48488132179, vstest.console.exe, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.Extensions.BlameDataCollector, from path: C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+TpTrace Information: 0 : 11956, 1, 2020/09/18, 18:31:17.967, 48488165413, vstest.console.exe, AssemblyResolver.OnResolve: Microsoft.TestPlatform.TestHostRuntimeProvider: Resolving assembly.
+TpTrace Information: 0 : 11956, 1, 2020/09/18, 18:31:17.975, 48488249806, vstest.console.exe, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.TestHostRuntimeProvider, from path: C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions\Microsoft.TestPlatform.TestHostRuntimeProvider.dll
+TpTrace Information: 0 : 11956, 1, 2020/09/18, 18:31:17.978, 48488275638, vstest.console.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.Extensions.Html.TestLogger: Resolving assembly.
+TpTrace Information: 0 : 11956, 1, 2020/09/18, 18:31:17.982, 48488314636, vstest.console.exe, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.VisualStudio.TestPlatform.Extensions.Html.TestLogger, from path: C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions\Microsoft.VisualStudio.TestPlatform.Extensions.Html.TestLogger.dll
+TpTrace Information: 0 : 11956, 1, 2020/09/18, 18:31:17.983, 48488323516, vstest.console.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger: Resolving assembly.
+TpTrace Information: 0 : 11956, 1, 2020/09/18, 18:31:17.986, 48488362008, vstest.console.exe, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger, from path: C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions\Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.dll
+TpTrace Information: 0 : 11956, 1, 2020/09/18, 18:31:18.040, 48488901298, vstest.console.exe, Trying to connect to server on port : 50583
+TpTrace Information: 0 : 11956, 1, 2020/09/18, 18:31:18.042, 48488922391, vstest.console.exe, Trying to connect to server on socket : 127.0.0.1:50583 
+TpTrace Information: 0 : 11956, 4, 2020/09/18, 18:31:18.056, 48489055249, vstest.console.exe, Connected to the server successfully 
+TpTrace Information: 0 : 11956, 4, 2020/09/18, 18:31:18.056, 48489057054, vstest.console.exe, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 11956, 1, 2020/09/18, 18:31:18.233, 48490831210, vstest.console.exe, DesignModeClient.ProcessRequests: Processing Message: (ProtocolVersion) -> 3
+TpTrace Information: 0 : 11956, 1, 2020/09/18, 18:31:18.261, 48491108805, vstest.console.exe, DesignModeClient.ProcessRequests: Processing Message: (Extensions.Initialize) -> [
+  "C:\\Users\\Cliente\\source\\repos\\Calculadora\\Calc.Unit.Test\\bin\\Debug",
+  "C:\\Users\\Cliente\\AppData\\Local\\Temp\\05szxyx1.0mq\\.vstest\\tools\\net451\\Extensions"
+]
+TpTrace Information: 0 : 11956, 1, 2020/09/18, 18:31:18.274, 48491233595, vstest.console.exe, TestRequestManager.InitializeExtensions: Initialize extensions started.
+TpTrace Information: 0 : 11956, 1, 2020/09/18, 18:31:18.276, 48491253486, vstest.console.exe, TestRequestManager.InitializeExtensions: Initialize extensions completed.
+TpTrace Information: 0 : 11956, 1, 2020/09/18, 18:31:18.281, 48491306990, vstest.console.exe, DesignModeClient.ProcessRequests: Processing Message: (TestDiscovery.Start) -> {
+  "Sources": [
+    "C:\\Users\\Cliente\\source\\repos\\Calculadora\\Calc.Unit.Test\\bin\\Debug\\Calc.Unit.Test.dll"
+  ],
+  "RunSettings": "<RunSettings>\r\n <RunConfiguration>\r\n<DisableAppDomain>true</DisableAppDomain>\r\n  <MaxCpuCount>1</MaxCpuCount>\r\n  <TargetFrameworkVersion>.NETFramework,Version=v4.6</TargetFrameworkVersion>\r\n<DesignMode>false</DesignMode>\r\n<BatchSize>1</BatchSize>\r\n </RunConfiguration>\r\n</RunSettings>",
+  "TestPlatformOptions": null
+}
+TpTrace Information: 0 : 11956, 6, 2020/09/18, 18:31:18.287, 48491362589, vstest.console.exe, TestRequestManager.DiscoverTests: Discovery tests started.
+TpTrace Information: 0 : 11956, 6, 2020/09/18, 18:31:18.388, 48492380975, vstest.console.exe, AssemblyMetadataProvider.GetFrameWork: Determined framework:'.NETFramework,Version=v4.6.1' for source: 'C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\Calc.Unit.Test.dll'
+TpTrace Information: 0 : 11956, 6, 2020/09/18, 18:31:18.388, 48492383271, vstest.console.exe, Determined framework for all sources: .NETFramework,Version=v4.6.1
+TpTrace Information: 0 : 11956, 6, 2020/09/18, 18:31:18.392, 48492428525, vstest.console.exe, AssemblyMetadataProvider.GetArchitecture: Determined architecture:AnyCPU info for assembly: C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\Calc.Unit.Test.dll
+TpTrace Information: 0 : 11956, 6, 2020/09/18, 18:31:18.394, 48492445355, vstest.console.exe, Determined platform for all sources: X86
+TpTrace Warning: 0 : 11956, 6, 2020/09/18, 18:31:18.401, 48492513318, vstest.console.exe, A execução de teste usará DLLs criadas para a estrutura .NETFramework,Version=v4.6 e a plataforma X86. As seguintes DLLs não farão parte da execução: 
+Calc.Unit.Test.dll é compilado para Framework .NETFramework,Version=v4.6.1 e Platform AnyCPU.
+Acesse http://go.microsoft.com/fwlink/?LinkID=236877&clcid=0x409 para obter mais detalhes sobre como gerenciar essas configurações.
+
+TpTrace Information: 0 : 11956, 6, 2020/09/18, 18:31:18.403, 48492540193, vstest.console.exe, Compatible sources list : 
+TpTrace Information: 0 : 11956, 6, 2020/09/18, 18:31:18.404, 48492541502, vstest.console.exe, 
+TpTrace Information: 0 : 11956, 6, 2020/09/18, 18:31:18.408, 48492589339, vstest.console.exe, TestRequestManager.DiscoverTests: Synchronization context taken
+TpTrace Information: 0 : 11956, 6, 2020/09/18, 18:31:18.442, 48492926918, vstest.console.exe, AssemblyResolver.OnResolve: Microsoft.TestPlatform.TestHostRuntimeProvider, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 11956, 6, 2020/09/18, 18:31:18.444, 48492941851, vstest.console.exe, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.TestHostRuntimeProvider, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, from path: C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions\Microsoft.TestPlatform.TestHostRuntimeProvider.dll
+TpTrace Information: 0 : 11956, 6, 2020/09/18, 18:31:18.445, 48492950747, vstest.console.exe, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.Hosting.DefaultTestHostManager
+TpTrace Information: 0 : 11956, 6, 2020/09/18, 18:31:18.449, 48492992593, vstest.console.exe, InferRunSettingsHelper.IsTestSettingsEnabled: Unable to navigate to RunSettings/MSTest. Current node: RunSettings
+TpTrace Information: 0 : 11956, 6, 2020/09/18, 18:31:18.460, 48493109727, vstest.console.exe, DiscoveryRequest.DiscoverAsync: Started.
+TpTrace Information: 0 : 11956, 9, 2020/09/18, 18:31:18.465, 48493157375, vstest.console.exe, SocketServer.Start: Listening on endpoint : 127.0.0.1:50585
+TpTrace Information: 0 : 11956, 9, 2020/09/18, 18:31:19.255, 48501052309, vstest.console.exe, DiscoveryRequest.SendDiscoveryMessage: Completed.
+TpTrace Information: 0 : 11956, 7, 2020/09/18, 18:31:19.270, 48501193144, vstest.console.exe, DiscoveryRequest.SendDiscoveryMessage: Completed.
+TpTrace Information: 0 : 11956, 7, 2020/09/18, 18:31:19.749, 48505996482, vstest.console.exe, DiscoveryRequest.SendDiscoveredTests: Completed.
+TpTrace Information: 0 : 11956, 7, 2020/09/18, 18:31:19.750, 48506006870, vstest.console.exe, DiscoveryRequest.SendDiscoveredTests: Completed.
+TpTrace Information: 0 : 11956, 7, 2020/09/18, 18:31:19.751, 48506014417, vstest.console.exe, DiscoveryRequest.SendDiscoveredTests: Completed.
+TpTrace Information: 0 : 11956, 7, 2020/09/18, 18:31:19.756, 48506061701, vstest.console.exe, DiscoveryRequest.SendDiscoveredTests: Completed.
+TpTrace Information: 0 : 11956, 7, 2020/09/18, 18:31:19.756, 48506068308, vstest.console.exe, DiscoveryRequest.SendDiscoveredTests: Completed.
+TpTrace Information: 0 : 11956, 7, 2020/09/18, 18:31:19.757, 48506074165, vstest.console.exe, DiscoveryRequest.SendDiscoveredTests: Completed.
+TpTrace Warning: 0 : 11956, 7, 2020/09/18, 18:31:19.862, 48507119303, vstest.console.exe, ProxyOperationManager: Timed out waiting for test host to exit. Will terminate process.
+TpTrace Warning: 0 : 11956, 10, 2020/09/18, 18:31:19.870, 48507208366, vstest.console.exe, TestHostManagerCallbacks.ErrorReceivedCallback Test host standard error line: 
+TpTrace Information: 0 : 11956, 7, 2020/09/18, 18:31:19.871, 48507209954, vstest.console.exe, DiscoveryRequest.SendDiscoveredTests: Completed.
+TpTrace Information: 0 : 11956, 7, 2020/09/18, 18:31:19.881, 48507316657, vstest.console.exe, DiscoveryRequest.DiscoveryComplete: Completed.
+TpTrace Information: 0 : 11956, 6, 2020/09/18, 18:31:19.881, 48507317809, vstest.console.exe, DiscoveryRequest.Dispose: Completed.
+TpTrace Information: 0 : 11956, 6, 2020/09/18, 18:31:19.881, 48507318772, vstest.console.exe, TestRequestManager.DiscoverTests: Discovery tests completed.
+TpTrace Information: 0 : 11956, 7, 2020/09/18, 18:31:19.882, 48507321314, vstest.console.exe, SocketServer.Stop: Stop server endPoint: 127.0.0.1:50585
+TpTrace Information: 0 : 11956, 7, 2020/09/18, 18:31:19.882, 48507322123, vstest.console.exe, SocketServer.Stop: Cancellation requested. Stopping message loop.
+TpTrace Information: 0 : 11956, 7, 2020/09/18, 18:31:19.882, 48507327916, vstest.console.exe, SocketServer.PrivateStop: Stop server endPoint: 127.0.0.1:50585 error: 
+TpTrace Information: 0 : 11956, 7, 2020/09/18, 18:31:19.883, 48507332434, vstest.console.exe, SocketServer.Stop: Raise disconnected event endPoint: 127.0.0.1:50585 error: 
+TpTrace Information: 0 : 11956, 1, 2020/09/18, 18:31:19.898, 48507483191, vstest.console.exe, DesignModeClient.ProcessRequests: Processing Message: (TestSession.Terminate) -> null
+TpTrace Information: 0 : 11956, 1, 2020/09/18, 18:31:19.898, 48507484669, vstest.console.exe, DesignModeClient: Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:20.187, 48510380209, vstest.console.exe, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:20.191, 48510413273, vstest.console.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:20.191, 48510414826, vstest.console.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:20.191, 48510415902, vstest.console.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:20.191, 48510416814, vstest.console.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:20.196, 48510464806, vstest.console.exe, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Resolving assembly.
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:20.211, 48510615240, vstest.console.exe, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.Extensions.BlameDataCollector, from path: C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:20.215, 48510650163, vstest.console.exe, AssemblyResolver.OnResolve: Microsoft.TestPlatform.TestHostRuntimeProvider: Resolving assembly.
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:20.219, 48510688452, vstest.console.exe, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.TestHostRuntimeProvider, from path: C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions\Microsoft.TestPlatform.TestHostRuntimeProvider.dll
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:20.221, 48510714044, vstest.console.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.Extensions.Html.TestLogger: Resolving assembly.
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:20.225, 48510753794, vstest.console.exe, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.VisualStudio.TestPlatform.Extensions.Html.TestLogger, from path: C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions\Microsoft.VisualStudio.TestPlatform.Extensions.Html.TestLogger.dll
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:20.226, 48510764810, vstest.console.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger: Resolving assembly.
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:20.230, 48510803804, vstest.console.exe, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger, from path: C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions\Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.dll
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:20.277, 48511269194, vstest.console.exe, Trying to connect to server on port : 50587
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:20.279, 48511291137, vstest.console.exe, Trying to connect to server on socket : 127.0.0.1:50587 
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:20.293, 48511435800, vstest.console.exe, Connected to the server successfully 
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:20.294, 48511437719, vstest.console.exe, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:20.462, 48513122480, vstest.console.exe, DesignModeClient.ProcessRequests: Processing Message: (ProtocolVersion) -> 3
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:20.479, 48513292045, vstest.console.exe, DesignModeClient.ProcessRequests: Processing Message: (Extensions.Initialize) -> [
+  "C:\\Users\\Cliente\\source\\repos\\Calculadora\\Calc.Unit.Test\\bin\\Debug",
+  "C:\\Users\\Cliente\\AppData\\Local\\Temp\\05szxyx1.0mq\\.vstest\\tools\\net451\\Extensions"
+]
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:20.492, 48513424116, vstest.console.exe, TestRequestManager.InitializeExtensions: Initialize extensions started.
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:20.494, 48513444366, vstest.console.exe, TestRequestManager.InitializeExtensions: Initialize extensions completed.
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:20.523, 48513734698, vstest.console.exe, DesignModeClient.ProcessRequests: Processing Message: (TestExecution.GetTestRunnerProcessStartInfoForRunAll) -> {
+  "Sources": [
+    "C:\\Users\\Cliente\\source\\repos\\Calculadora\\Calc.Unit.Test\\bin\\Debug\\Calc.Unit.Test.dll"
+  ],
+  "TestCases": null,
+  "RunSettings": "<RunSettings>\r\n <RunConfiguration>\r\n<DisableAppDomain>true</DisableAppDomain>\r\n  <MaxCpuCount>1</MaxCpuCount>\r\n  <TargetFrameworkVersion>.NETFramework,Version=v4.6</TargetFrameworkVersion>\r\n<DesignMode>false</DesignMode>\r\n<BatchSize>1</BatchSize>\r\n </RunConfiguration>\r\n</RunSettings>",
+  "KeepAlive": false,
+  "DebuggingEnabled": false,
+  "TestPlatformOptions": null
+}
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:20.534, 48513842738, vstest.console.exe, TestRequestManager.RunTests: run tests started.
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:20.632, 48514819418, vstest.console.exe, AssemblyMetadataProvider.GetFrameWork: Determined framework:'.NETFramework,Version=v4.6.1' for source: 'C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\Calc.Unit.Test.dll'
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:20.632, 48514822673, vstest.console.exe, Determined framework for all sources: .NETFramework,Version=v4.6.1
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:20.636, 48514863897, vstest.console.exe, AssemblyMetadataProvider.GetArchitecture: Determined architecture:AnyCPU info for assembly: C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\Calc.Unit.Test.dll
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:20.638, 48514880235, vstest.console.exe, Determined platform for all sources: X86
+TpTrace Warning: 0 : 12904, 7, 2020/09/18, 18:31:20.645, 48514949914, vstest.console.exe, A execução de teste usará DLLs criadas para a estrutura .NETFramework,Version=v4.6 e a plataforma X86. As seguintes DLLs não farão parte da execução: 
+Calc.Unit.Test.dll é compilado para Framework .NETFramework,Version=v4.6.1 e Platform AnyCPU.
+Acesse http://go.microsoft.com/fwlink/?LinkID=236877&clcid=0x409 para obter mais detalhes sobre como gerenciar essas configurações.
+
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:20.648, 48514979729, vstest.console.exe, Compatible sources list : 
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:20.648, 48514981263, vstest.console.exe, 
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:20.653, 48515035977, vstest.console.exe, InferRunSettingsHelper.IsTestSettingsEnabled: Unable to navigate to RunSettings/MSTest. Current node: RunSettings
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:20.689, 48515397440, vstest.console.exe, AssemblyResolver.OnResolve: Microsoft.TestPlatform.TestHostRuntimeProvider, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:20.691, 48515411206, vstest.console.exe, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.TestHostRuntimeProvider, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, from path: C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions\Microsoft.TestPlatform.TestHostRuntimeProvider.dll
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:20.692, 48515419873, vstest.console.exe, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.Hosting.DefaultTestHostManager
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:20.696, 48515467122, vstest.console.exe, InferRunSettingsHelper.IsTestSettingsEnabled: Unable to navigate to RunSettings/MSTest. Current node: RunSettings
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:20.707, 48515576778, vstest.console.exe, TestRunRequest.ExecuteAsync: Starting run with settings:TestRunCriteria:
+   KeepAlive=False,FrequencyOfRunStatsChangeEvent=1,RunStatsChangeEventTimeout=00:00:01.5000000,TestCaseFilter=,TestExecutorLauncher=Microsoft.VisualStudio.TestPlatform.Client.DesignMode.DesignModeTestHostLauncher
+   Settingsxml=<RunSettings>
+  <RunConfiguration>
+    <DisableAppDomain>true</DisableAppDomain>
+    <MaxCpuCount>1</MaxCpuCount>
+    <TargetFrameworkVersion>.NETFramework,Version=v4.6</TargetFrameworkVersion>
+    <DesignMode>false</DesignMode>
+    <BatchSize>1</BatchSize>
+    <TargetPlatform>X86</TargetPlatform>
+    <CollectSourceInformation>True</CollectSourceInformation>
+  </RunConfiguration>
+  <LoggerRunSettings>
+    <Loggers>
+      <Logger friendlyName="Console" uri="logger://microsoft/TestPlatform/ConsoleLogger/v1" assemblyQualifiedName="Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" codeBase="C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\vstest.console.exe" enabled="True" />
+    </Loggers>
+  </LoggerRunSettings>
+</RunSettings>
+
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:20.713, 48515631410, vstest.console.exe, ProxyParallelExecutionManager: Triggering test run for next source: C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\Calc.Unit.Test.dll
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:20.714, 48515638260, vstest.console.exe, TestRunRequest.ExecuteAsync: Started.
+TpTrace Information: 0 : 12904, 9, 2020/09/18, 18:31:20.720, 48515703875, vstest.console.exe, SocketServer.Start: Listening on endpoint : 127.0.0.1:50589
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:20.745, 48515956578, vstest.console.exe, DesignModeClient.ProcessRequests: Processing Message: (TestExecution.CustomTestHostLaunchCallback) -> {
+  "HostProcessId": 8748,
+  "ErrorMessage": null
+}
+TpTrace Information: 0 : 12904, 9, 2020/09/18, 18:31:21.449, 48522989552, vstest.console.exe, TestRunRequest:SendTestRunMessage: Completed.
+TpTrace Information: 0 : 12904, 10, 2020/09/18, 18:31:21.463, 48523130932, vstest.console.exe, TestRunRequest:SendTestRunMessage: Completed.
+TpTrace Information: 0 : 12904, 10, 2020/09/18, 18:31:21.960, 48528100812, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 10, 2020/09/18, 18:31:21.992, 48528421706, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 10, 2020/09/18, 18:31:21.993, 48528429237, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 10, 2020/09/18, 18:31:21.994, 48528440772, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 10, 2020/09/18, 18:31:21.994, 48528446763, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 10, 2020/09/18, 18:31:21.995, 48528457925, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 10, 2020/09/18, 18:31:21.996, 48528463662, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 10, 2020/09/18, 18:31:21.997, 48528475272, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 10, 2020/09/18, 18:31:21.998, 48528481113, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 10, 2020/09/18, 18:31:22.207, 48530565638, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 10, 2020/09/18, 18:31:22.207, 48530572547, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 10, 2020/09/18, 18:31:22.216, 48530660849, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Warning: 0 : 12904, 10, 2020/09/18, 18:31:22.336, 48531855008, vstest.console.exe, ProxyOperationManager: Timed out waiting for test host to exit. Will terminate process.
+TpTrace Error: 0 : 12904, 4, 2020/09/18, 18:31:22.351, 48532005438, vstest.console.exe, TestHostManagerCallbacks.ExitCallBack: Testhost processId: 8748 exited with exitcode: -1 error: ''
+TpTrace Information: 0 : 12904, 10, 2020/09/18, 18:31:22.356, 48532058558, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 10, 2020/09/18, 18:31:22.380, 48532299445, vstest.console.exe, TestRunRequest:TestRunComplete: Completed.
+TpTrace Information: 0 : 12904, 10, 2020/09/18, 18:31:22.381, 48532304565, vstest.console.exe, SocketServer.Stop: Stop server endPoint: 127.0.0.1:50589
+TpTrace Information: 0 : 12904, 10, 2020/09/18, 18:31:22.381, 48532305570, vstest.console.exe, SocketServer.Stop: Cancellation requested. Stopping message loop.
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:22.381, 48532310244, vstest.console.exe, TestRunRequest.Dispose: Completed.
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:22.381, 48532311203, vstest.console.exe, TestRequestManager.RunTests: run tests completed.
+TpTrace Information: 0 : 12904, 10, 2020/09/18, 18:31:22.381, 48532312703, vstest.console.exe, SocketServer.PrivateStop: Stop server endPoint: 127.0.0.1:50589 error: 
+TpTrace Information: 0 : 12904, 10, 2020/09/18, 18:31:22.382, 48532316989, vstest.console.exe, SocketServer.Stop: Raise disconnected event endPoint: 127.0.0.1:50589 error: 
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:24.804, 48556549645, vstest.console.exe, DesignModeClient.ProcessRequests: Processing Message: (TestExecution.GetTestRunnerProcessStartInfoForRunAll) -> {
+  "Sources": [
+    "C:\\Users\\Cliente\\source\\repos\\Calculadora\\Calc.Unit.Test\\bin\\Debug\\Calc.Unit.Test.dll"
+  ],
+  "TestCases": null,
+  "RunSettings": "<RunSettings>\r\n <RunConfiguration>\r\n<DisableAppDomain>true</DisableAppDomain>\r\n  <MaxCpuCount>1</MaxCpuCount>\r\n  <TargetFrameworkVersion>.NETFramework,Version=v4.6</TargetFrameworkVersion>\r\n<DesignMode>false</DesignMode>\r\n<BatchSize>1</BatchSize>\r\n </RunConfiguration><InProcDataCollectionRunSettings><InProcDataCollectors><InProcDataCollector friendlyName=\"StrykerCoverage\" uri=\"https://stryker-mutator.io/\" codebase=\"C:\\Users\\Cliente\\.dotnet\\tools\\.store\\dotnet-stryker\\0.19.0\\dotnet-stryker\\0.19.0\\tools\\netcoreapp3.1\\any\\Stryker.DataCollector.dll\" assemblyQualifiedName=\"Stryker.DataCollector.CoverageCollector, Stryker.DataCollector, Version=0.16.1.0, Culture=neutral, PublicKeyToken=null\">\r\n<Configuration><Parameters><Coverage/><MutantControl  name='StrykerQvtBuQjxd8sbjk1.MutantControl'/></Parameters></Configuration></InProcDataCollector></InProcDataCollectors></InProcDataCollectionRunSettings>\r\n</RunSettings>",
+  "KeepAlive": false,
+  "DebuggingEnabled": false,
+  "TestPlatformOptions": null
+}
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:24.805, 48556552539, vstest.console.exe, TestRequestManager.RunTests: run tests started.
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:24.805, 48556557734, vstest.console.exe, AssemblyMetadataProvider.GetFrameWork: Determined framework:'.NETFramework,Version=v4.6.1' for source: 'C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\Calc.Unit.Test.dll'
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:24.805, 48556559010, vstest.console.exe, Determined framework for all sources: .NETFramework,Version=v4.6.1
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:24.807, 48556571292, vstest.console.exe, AssemblyMetadataProvider.GetArchitecture: Determined architecture:AnyCPU info for assembly: C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\Calc.Unit.Test.dll
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:24.807, 48556572367, vstest.console.exe, Determined platform for all sources: X86
+TpTrace Warning: 0 : 12904, 6, 2020/09/18, 18:31:24.807, 48556573767, vstest.console.exe, A execução de teste usará DLLs criadas para a estrutura .NETFramework,Version=v4.6 e a plataforma X86. As seguintes DLLs não farão parte da execução: 
+Calc.Unit.Test.dll é compilado para Framework .NETFramework,Version=v4.6.1 e Platform AnyCPU.
+Acesse http://go.microsoft.com/fwlink/?LinkID=236877&clcid=0x409 para obter mais detalhes sobre como gerenciar essas configurações.
+
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:24.807, 48556575446, vstest.console.exe, Compatible sources list : 
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:24.807, 48556576178, vstest.console.exe, 
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:24.807, 48556578803, vstest.console.exe, InferRunSettingsHelper.IsTestSettingsEnabled: Unable to navigate to RunSettings/MSTest. Current node: RunSettings
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:24.813, 48556637500, vstest.console.exe, InferRunSettingsHelper.IsTestSettingsEnabled: Unable to navigate to RunSettings/MSTest. Current node: RunSettings
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:24.814, 48556641577, vstest.console.exe, TestRunRequest.ExecuteAsync: Starting run with settings:TestRunCriteria:
+   KeepAlive=False,FrequencyOfRunStatsChangeEvent=1,RunStatsChangeEventTimeout=00:00:01.5000000,TestCaseFilter=,TestExecutorLauncher=Microsoft.VisualStudio.TestPlatform.Client.DesignMode.DesignModeTestHostLauncher
+   Settingsxml=<RunSettings>
+  <RunConfiguration>
+    <DisableAppDomain>true</DisableAppDomain>
+    <MaxCpuCount>1</MaxCpuCount>
+    <TargetFrameworkVersion>.NETFramework,Version=v4.6</TargetFrameworkVersion>
+    <DesignMode>false</DesignMode>
+    <BatchSize>1</BatchSize>
+    <TargetPlatform>X86</TargetPlatform>
+    <CollectSourceInformation>True</CollectSourceInformation>
+  </RunConfiguration>
+  <InProcDataCollectionRunSettings>
+    <InProcDataCollectors>
+      <InProcDataCollector friendlyName="StrykerCoverage" uri="https://stryker-mutator.io/" codebase="C:\Users\Cliente\.dotnet\tools\.store\dotnet-stryker\0.19.0\dotnet-stryker\0.19.0\tools\netcoreapp3.1\any\Stryker.DataCollector.dll" assemblyQualifiedName="Stryker.DataCollector.CoverageCollector, Stryker.DataCollector, Version=0.16.1.0, Culture=neutral, PublicKeyToken=null">
+        <Configuration>
+          <Parameters>
+            <Coverage />
+            <MutantControl name="StrykerQvtBuQjxd8sbjk1.MutantControl" />
+          </Parameters>
+        </Configuration>
+      </InProcDataCollector>
+    </InProcDataCollectors>
+  </InProcDataCollectionRunSettings>
+  <LoggerRunSettings>
+    <Loggers>
+      <Logger friendlyName="Console" uri="logger://microsoft/TestPlatform/ConsoleLogger/v1" assemblyQualifiedName="Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" codeBase="C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\vstest.console.exe" enabled="True" />
+    </Loggers>
+  </LoggerRunSettings>
+</RunSettings>
+
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:24.814, 48556644516, vstest.console.exe, ProxyParallelExecutionManager: Triggering test run for next source: C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\Calc.Unit.Test.dll
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:24.814, 48556645365, vstest.console.exe, TestRunRequest.ExecuteAsync: Started.
+TpTrace Information: 0 : 12904, 10, 2020/09/18, 18:31:24.814, 48556647333, vstest.console.exe, SocketServer.Start: Listening on endpoint : 127.0.0.1:50591
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:24.819, 48556694094, vstest.console.exe, DesignModeClient.ProcessRequests: Processing Message: (TestExecution.CustomTestHostLaunchCallback) -> {
+  "HostProcessId": 6880,
+  "ErrorMessage": null
+}
+TpTrace Information: 0 : 12904, 10, 2020/09/18, 18:31:25.428, 48562777331, vstest.console.exe, TestRunRequest:SendTestRunMessage: Completed.
+TpTrace Information: 0 : 12904, 9, 2020/09/18, 18:31:25.445, 48562946694, vstest.console.exe, TestRunRequest:SendTestRunMessage: Completed.
+TpTrace Information: 0 : 12904, 9, 2020/09/18, 18:31:26.108, 48569577983, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 9, 2020/09/18, 18:31:26.311, 48571616447, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 9, 2020/09/18, 18:31:26.312, 48571623676, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 9, 2020/09/18, 18:31:26.313, 48571636806, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 9, 2020/09/18, 18:31:26.314, 48571645480, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 9, 2020/09/18, 18:31:26.316, 48571666385, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 9, 2020/09/18, 18:31:26.319, 48571697619, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 9, 2020/09/18, 18:31:26.326, 48571767460, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 9, 2020/09/18, 18:31:26.327, 48571774592, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 9, 2020/09/18, 18:31:26.555, 48574057383, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 9, 2020/09/18, 18:31:26.556, 48574063443, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 9, 2020/09/18, 18:31:26.564, 48574139748, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Warning: 0 : 12904, 9, 2020/09/18, 18:31:26.679, 48575287374, vstest.console.exe, ProxyOperationManager: Timed out waiting for test host to exit. Will terminate process.
+TpTrace Information: 0 : 12904, 9, 2020/09/18, 18:31:26.679, 48575295595, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 9, 2020/09/18, 18:31:26.680, 48575303561, vstest.console.exe, TestRunRequest:TestRunComplete: Completed.
+TpTrace Information: 0 : 12904, 9, 2020/09/18, 18:31:26.680, 48575304569, vstest.console.exe, SocketServer.Stop: Stop server endPoint: 127.0.0.1:50591
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:26.680, 48575305189, vstest.console.exe, TestRunRequest.Dispose: Completed.
+TpTrace Information: 0 : 12904, 9, 2020/09/18, 18:31:26.680, 48575305228, vstest.console.exe, SocketServer.Stop: Cancellation requested. Stopping message loop.
+TpTrace Information: 0 : 12904, 9, 2020/09/18, 18:31:26.680, 48575306652, vstest.console.exe, SocketServer.PrivateStop: Stop server endPoint: 127.0.0.1:50591 error: 
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:26.680, 48575306048, vstest.console.exe, TestRequestManager.RunTests: run tests completed.
+TpTrace Information: 0 : 12904, 9, 2020/09/18, 18:31:26.681, 48575309102, vstest.console.exe, SocketServer.Stop: Raise disconnected event endPoint: 127.0.0.1:50591 error: 
+TpTrace Error: 0 : 12904, 4, 2020/09/18, 18:31:26.691, 48575410524, vstest.console.exe, TestHostManagerCallbacks.ExitCallBack: Testhost processId: 6880 exited with exitcode: -1 error: ''
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:26.744, 48575940504, vstest.console.exe, DesignModeClient.ProcessRequests: Processing Message: (TestExecution.GetTestRunnerProcessStartInfoForRunSelected) -> {
+  "Sources": null,
+  "TestCases": [
+    {
+      "Properties": [
+        {
+          "Key": {
+            "Id": "TestCase.FullyQualifiedName",
+            "Label": "FullyQualifiedName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraUnitTest.Somar"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.ExecutorUri",
+            "Label": "Executor Uri",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Uri"
+          },
+          "Value": "executor://MSTestAdapter/v2"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Source",
+            "Label": "Source",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "C:\\Users\\Cliente\\source\\repos\\Calculadora\\Calc.Unit.Test\\bin\\Debug\\Calc.Unit.Test.dll"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.CodeFilePath",
+            "Label": "File Path",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": null
+        },
+        {
+          "Key": {
+            "Id": "TestCase.DisplayName",
+            "Label": "Name",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "Somar"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Id",
+            "Label": "Id",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Guid"
+          },
+          "Value": "68dedd4b-3da6-9474-35ab-19a75362a2f7"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.LineNumber",
+            "Label": "Line Number",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Int32"
+          },
+          "Value": -1
+        },
+        {
+          "Key": {
+            "Id": "MSTestDiscoverer.TestClassName",
+            "Label": "ClassName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraUnitTest"
+        },
+        {
+          "Key": {
+            "Id": "TestObject.Traits",
+            "Label": "Características",
+            "Category": "",
+            "Description": "",
+            "Attributes": 5,
+            "ValueType": "System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"
+          },
+          "Value": []
+        }
+      ]
+    },
+    {
+      "Properties": [
+        {
+          "Key": {
+            "Id": "TestCase.FullyQualifiedName",
+            "Label": "FullyQualifiedName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraUnitTest.Subtrair"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.ExecutorUri",
+            "Label": "Executor Uri",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Uri"
+          },
+          "Value": "executor://MSTestAdapter/v2"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Source",
+            "Label": "Source",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "C:\\Users\\Cliente\\source\\repos\\Calculadora\\Calc.Unit.Test\\bin\\Debug\\Calc.Unit.Test.dll"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.CodeFilePath",
+            "Label": "File Path",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": null
+        },
+        {
+          "Key": {
+            "Id": "TestCase.DisplayName",
+            "Label": "Name",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "Subtrair"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Id",
+            "Label": "Id",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Guid"
+          },
+          "Value": "be316bd3-820f-9a10-ea16-e92564c61c39"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.LineNumber",
+            "Label": "Line Number",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Int32"
+          },
+          "Value": -1
+        },
+        {
+          "Key": {
+            "Id": "MSTestDiscoverer.TestClassName",
+            "Label": "ClassName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraUnitTest"
+        },
+        {
+          "Key": {
+            "Id": "TestObject.Traits",
+            "Label": "Características",
+            "Category": "",
+            "Description": "",
+            "Attributes": 5,
+            "ValueType": "System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"
+          },
+          "Value": []
+        }
+      ]
+    },
+    {
+      "Properties": [
+        {
+          "Key": {
+            "Id": "TestCase.FullyQualifiedName",
+            "Label": "FullyQualifiedName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraUnitTest.Dividir"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.ExecutorUri",
+            "Label": "Executor Uri",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Uri"
+          },
+          "Value": "executor://MSTestAdapter/v2"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Source",
+            "Label": "Source",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "C:\\Users\\Cliente\\source\\repos\\Calculadora\\Calc.Unit.Test\\bin\\Debug\\Calc.Unit.Test.dll"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.CodeFilePath",
+            "Label": "File Path",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": null
+        },
+        {
+          "Key": {
+            "Id": "TestCase.DisplayName",
+            "Label": "Name",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "Dividir"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Id",
+            "Label": "Id",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Guid"
+          },
+          "Value": "c4e64bae-a42a-81dc-6b93-3216b7d9a786"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.LineNumber",
+            "Label": "Line Number",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Int32"
+          },
+          "Value": -1
+        },
+        {
+          "Key": {
+            "Id": "MSTestDiscoverer.TestClassName",
+            "Label": "ClassName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraUnitTest"
+        },
+        {
+          "Key": {
+            "Id": "TestObject.Traits",
+            "Label": "Características",
+            "Category": "",
+            "Description": "",
+            "Attributes": 5,
+            "ValueType": "System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"
+          },
+          "Value": []
+        }
+      ]
+    },
+    {
+      "Properties": [
+        {
+          "Key": {
+            "Id": "TestCase.FullyQualifiedName",
+            "Label": "FullyQualifiedName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraUnitTest.Multiplicacao"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.ExecutorUri",
+            "Label": "Executor Uri",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Uri"
+          },
+          "Value": "executor://MSTestAdapter/v2"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Source",
+            "Label": "Source",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "C:\\Users\\Cliente\\source\\repos\\Calculadora\\Calc.Unit.Test\\bin\\Debug\\Calc.Unit.Test.dll"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.CodeFilePath",
+            "Label": "File Path",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": null
+        },
+        {
+          "Key": {
+            "Id": "TestCase.DisplayName",
+            "Label": "Name",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "Multiplicacao"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Id",
+            "Label": "Id",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Guid"
+          },
+          "Value": "c525d128-58e3-1627-690a-792292d84a1c"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.LineNumber",
+            "Label": "Line Number",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Int32"
+          },
+          "Value": -1
+        },
+        {
+          "Key": {
+            "Id": "MSTestDiscoverer.TestClassName",
+            "Label": "ClassName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraUnitTest"
+        },
+        {
+          "Key": {
+            "Id": "TestObject.Traits",
+            "Label": "Características",
+            "Category": "",
+            "Description": "",
+            "Attributes": 5,
+            "ValueType": "System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"
+          },
+          "Value": []
+        }
+      ]
+    },
+    {
+      "Properties": [
+        {
+          "Key": {
+            "Id": "TestCase.FullyQualifiedName",
+            "Label": "FullyQualifiedName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraJurosUnitTest.SomarJuros"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.ExecutorUri",
+            "Label": "Executor Uri",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Uri"
+          },
+          "Value": "executor://MSTestAdapter/v2"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Source",
+            "Label": "Source",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "C:\\Users\\Cliente\\source\\repos\\Calculadora\\Calc.Unit.Test\\bin\\Debug\\Calc.Unit.Test.dll"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.CodeFilePath",
+            "Label": "File Path",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": null
+        },
+        {
+          "Key": {
+            "Id": "TestCase.DisplayName",
+            "Label": "Name",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "SomarJuros"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Id",
+            "Label": "Id",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Guid"
+          },
+          "Value": "51c62726-77c4-ae4f-e60d-439c608401fd"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.LineNumber",
+            "Label": "Line Number",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Int32"
+          },
+          "Value": -1
+        },
+        {
+          "Key": {
+            "Id": "MSTestDiscoverer.TestClassName",
+            "Label": "ClassName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraJurosUnitTest"
+        },
+        {
+          "Key": {
+            "Id": "TestObject.Traits",
+            "Label": "Características",
+            "Category": "",
+            "Description": "",
+            "Attributes": 5,
+            "ValueType": "System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"
+          },
+          "Value": []
+        }
+      ]
+    },
+    {
+      "Properties": [
+        {
+          "Key": {
+            "Id": "TestCase.FullyQualifiedName",
+            "Label": "FullyQualifiedName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraJurosUnitTest.SomarJuros2_Exception"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.ExecutorUri",
+            "Label": "Executor Uri",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Uri"
+          },
+          "Value": "executor://MSTestAdapter/v2"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Source",
+            "Label": "Source",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "C:\\Users\\Cliente\\source\\repos\\Calculadora\\Calc.Unit.Test\\bin\\Debug\\Calc.Unit.Test.dll"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.CodeFilePath",
+            "Label": "File Path",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": null
+        },
+        {
+          "Key": {
+            "Id": "TestCase.DisplayName",
+            "Label": "Name",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "SomarJuros2_Exception"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Id",
+            "Label": "Id",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Guid"
+          },
+          "Value": "72b6a49a-f71b-4056-9d9e-ad13a5c9f0d2"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.LineNumber",
+            "Label": "Line Number",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Int32"
+          },
+          "Value": -1
+        },
+        {
+          "Key": {
+            "Id": "MSTestDiscoverer.TestClassName",
+            "Label": "ClassName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraJurosUnitTest"
+        },
+        {
+          "Key": {
+            "Id": "TestObject.Traits",
+            "Label": "Características",
+            "Category": "",
+            "Description": "",
+            "Attributes": 5,
+            "ValueType": "System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"
+          },
+          "Value": []
+        }
+      ]
+    }
+  ],
+  "RunSettings": "<RunSettings>\r\n <RunConfiguration>\r\n<DisableAppDomain>true</DisableAppDomain>\r\n  <MaxCpuCount>1</MaxCpuCount>\r\n  <TargetFrameworkVersion>.NETFramework,Version=v4.6</TargetFrameworkVersion><TestSessionTimeout>7877</TestSessionTimeout>\r\n\r\n<DesignMode>false</DesignMode>\r\n<BatchSize>1</BatchSize>\r\n </RunConfiguration><InProcDataCollectionRunSettings><InProcDataCollectors><InProcDataCollector friendlyName=\"StrykerCoverage\" uri=\"https://stryker-mutator.io/\" codebase=\"C:\\Users\\Cliente\\.dotnet\\tools\\.store\\dotnet-stryker\\0.19.0\\dotnet-stryker\\0.19.0\\tools\\netcoreapp3.1\\any\\Stryker.DataCollector.dll\" assemblyQualifiedName=\"Stryker.DataCollector.CoverageCollector, Stryker.DataCollector, Version=0.16.1.0, Culture=neutral, PublicKeyToken=null\">\r\n<Configuration><Parameters><Mutant id='4' tests='51c62726-77c4-ae4f-e60d-439c608401fd,72b6a49a-f71b-4056-9d9e-ad13a5c9f0d2'/><Mutant id='0' tests='68dedd4b-3da6-9474-35ab-19a75362a2f7'/><Mutant id='1' tests='be316bd3-820f-9a10-ea16-e92564c61c39'/><Mutant id='2' tests='c525d128-58e3-1627-690a-792292d84a1c'/><Mutant id='3' tests='c4e64bae-a42a-81dc-6b93-3216b7d9a786'/><MutantControl  name='StrykerQvtBuQjxd8sbjk1.MutantControl'/></Parameters></Configuration></InProcDataCollector></InProcDataCollectors></InProcDataCollectionRunSettings>\r\n</RunSettings>",
+  "KeepAlive": false,
+  "DebuggingEnabled": false,
+  "TestPlatformOptions": null
+}
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:26.748, 48575980321, vstest.console.exe, TestRequestManager.RunTests: run tests started.
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:26.749, 48575986380, vstest.console.exe, AssemblyMetadataProvider.GetFrameWork: Determined framework:'.NETFramework,Version=v4.6.1' for source: 'C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\Calc.Unit.Test.dll'
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:26.749, 48575987598, vstest.console.exe, Determined framework for all sources: .NETFramework,Version=v4.6.1
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:26.750, 48575998026, vstest.console.exe, AssemblyMetadataProvider.GetArchitecture: Determined architecture:AnyCPU info for assembly: C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\Calc.Unit.Test.dll
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:26.750, 48575998977, vstest.console.exe, Determined platform for all sources: X86
+TpTrace Warning: 0 : 12904, 7, 2020/09/18, 18:31:26.750, 48576000100, vstest.console.exe, A execução de teste usará DLLs criadas para a estrutura .NETFramework,Version=v4.6 e a plataforma X86. As seguintes DLLs não farão parte da execução: 
+Calc.Unit.Test.dll é compilado para Framework .NETFramework,Version=v4.6.1 e Platform AnyCPU.
+Acesse http://go.microsoft.com/fwlink/?LinkID=236877&clcid=0x409 para obter mais detalhes sobre como gerenciar essas configurações.
+
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:26.750, 48576001680, vstest.console.exe, Compatible sources list : 
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:26.751, 48576002411, vstest.console.exe, 
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:26.751, 48576004758, vstest.console.exe, InferRunSettingsHelper.IsTestSettingsEnabled: Unable to navigate to RunSettings/MSTest. Current node: RunSettings
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:26.754, 48576038544, vstest.console.exe, InferRunSettingsHelper.IsTestSettingsEnabled: Unable to navigate to RunSettings/MSTest. Current node: RunSettings
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:26.754, 48576041356, vstest.console.exe, TestRunRequest.ExecuteAsync: Starting run with settings:TestRunCriteria:
+   KeepAlive=False,FrequencyOfRunStatsChangeEvent=1,RunStatsChangeEventTimeout=00:00:01.5000000,TestCaseFilter=,TestExecutorLauncher=Microsoft.VisualStudio.TestPlatform.Client.DesignMode.DesignModeTestHostLauncher
+   Settingsxml=<RunSettings>
+  <RunConfiguration>
+    <DisableAppDomain>true</DisableAppDomain>
+    <MaxCpuCount>1</MaxCpuCount>
+    <TargetFrameworkVersion>.NETFramework,Version=v4.6</TargetFrameworkVersion>
+    <TestSessionTimeout>7877</TestSessionTimeout>
+    <DesignMode>false</DesignMode>
+    <BatchSize>1</BatchSize>
+    <TargetPlatform>X86</TargetPlatform>
+    <CollectSourceInformation>True</CollectSourceInformation>
+  </RunConfiguration>
+  <InProcDataCollectionRunSettings>
+    <InProcDataCollectors>
+      <InProcDataCollector friendlyName="StrykerCoverage" uri="https://stryker-mutator.io/" codebase="C:\Users\Cliente\.dotnet\tools\.store\dotnet-stryker\0.19.0\dotnet-stryker\0.19.0\tools\netcoreapp3.1\any\Stryker.DataCollector.dll" assemblyQualifiedName="Stryker.DataCollector.CoverageCollector, Stryker.DataCollector, Version=0.16.1.0, Culture=neutral, PublicKeyToken=null">
+        <Configuration>
+          <Parameters>
+            <Mutant id="4" tests="51c62726-77c4-ae4f-e60d-439c608401fd,72b6a49a-f71b-4056-9d9e-ad13a5c9f0d2" />
+            <Mutant id="0" tests="68dedd4b-3da6-9474-35ab-19a75362a2f7" />
+            <Mutant id="1" tests="be316bd3-820f-9a10-ea16-e92564c61c39" />
+            <Mutant id="2" tests="c525d128-58e3-1627-690a-792292d84a1c" />
+            <Mutant id="3" tests="c4e64bae-a42a-81dc-6b93-3216b7d9a786" />
+            <MutantControl name="StrykerQvtBuQjxd8sbjk1.MutantControl" />
+          </Parameters>
+        </Configuration>
+      </InProcDataCollector>
+    </InProcDataCollectors>
+  </InProcDataCollectionRunSettings>
+  <LoggerRunSettings>
+    <Loggers>
+      <Logger friendlyName="Console" uri="logger://microsoft/TestPlatform/ConsoleLogger/v1" assemblyQualifiedName="Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" codeBase="C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\vstest.console.exe" enabled="True" />
+    </Loggers>
+  </LoggerRunSettings>
+</RunSettings>
+
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:26.755, 48576046348, vstest.console.exe, ProxyParallelExecutionManager: Triggering test run for next source: C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\Calc.Unit.Test.dll
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:26.755, 48576049011, vstest.console.exe, TestRunRequest.ExecuteAsync: Started.
+TpTrace Information: 0 : 12904, 10, 2020/09/18, 18:31:26.756, 48576056150, vstest.console.exe, SocketServer.Start: Listening on endpoint : 127.0.0.1:50594
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:26.760, 48576100299, vstest.console.exe, DesignModeClient.ProcessRequests: Processing Message: (TestExecution.CustomTestHostLaunchCallback) -> {
+  "HostProcessId": 8300,
+  "ErrorMessage": null
+}
+TpTrace Information: 0 : 12904, 10, 2020/09/18, 18:31:27.410, 48582605970, vstest.console.exe, TestRunRequest:SendTestRunMessage: Completed.
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:27.427, 48582777730, vstest.console.exe, TestRunRequest:SendTestRunMessage: Completed.
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:28.088, 48589378724, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:28.234, 48590840415, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:28.235, 48590846837, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:28.236, 48590858156, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:28.237, 48590864496, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:28.239, 48590881862, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:28.239, 48590888217, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:28.242, 48590913448, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:28.242, 48590919561, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:28.508, 48593586770, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:28.509, 48593596955, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:28.538, 48593884809, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Warning: 0 : 12904, 6, 2020/09/18, 18:31:28.659, 48595097296, vstest.console.exe, ProxyOperationManager: Timed out waiting for test host to exit. Will terminate process.
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:28.660, 48595104610, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:28.662, 48595119753, vstest.console.exe, TestRunRequest:TestRunComplete: Completed.
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:28.662, 48595121439, vstest.console.exe, TestRunRequest.Dispose: Completed.
+TpTrace Information: 0 : 12904, 7, 2020/09/18, 18:31:28.662, 48595122149, vstest.console.exe, TestRequestManager.RunTests: run tests completed.
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:28.662, 48595123600, vstest.console.exe, SocketServer.Stop: Stop server endPoint: 127.0.0.1:50594
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:28.662, 48595124290, vstest.console.exe, SocketServer.Stop: Cancellation requested. Stopping message loop.
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:28.662, 48595124923, vstest.console.exe, SocketServer.PrivateStop: Stop server endPoint: 127.0.0.1:50594 error: 
+TpTrace Information: 0 : 12904, 6, 2020/09/18, 18:31:28.662, 48595126734, vstest.console.exe, SocketServer.Stop: Raise disconnected event endPoint: 127.0.0.1:50594 error: 
+TpTrace Error: 0 : 12904, 4, 2020/09/18, 18:31:28.674, 48595240696, vstest.console.exe, TestHostManagerCallbacks.ExitCallBack: Testhost processId: 8300 exited with exitcode: -1 error: ''
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:28.674, 48595246692, vstest.console.exe, DesignModeClient.ProcessRequests: Processing Message: (TestExecution.Cancel) -> null
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:28.675, 48595248984, vstest.console.exe, TestRequestManager.CancelTestRun: Sending cancel request.
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:30.115, 48609649990, vstest.console.exe, DesignModeClient.ProcessRequests: Processing Message: (TestSession.Terminate) -> null
+TpTrace Information: 0 : 12904, 1, 2020/09/18, 18:31:30.115, 48609651405, vstest.console.exe, DesignModeClient: Session End message received from server. Closing the connection.
+ole.exe, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 10996, 1, 2020/09/18, 18:31:27.207, 48580578453, vstest.console.exe, DesignModeClient.ProcessRequests: Processing Message: (ProtocolVersion) -> 3
+TpTrace Information: 0 : 10996, 1, 2020/09/18, 18:31:27.223, 48580735562, vstest.console.exe, DesignModeClient.ProcessRequests: Processing Message: (Extensions.Initialize) -> [
+  "C:\\Users\\Cliente\\source\\repos\\Calculadora\\Calc.Unit.Test\\bin\\Debug",
+  "C:\\Users\\Cliente\\AppData\\Local\\Temp\\05szxyx1.0mq\\.vstest\\tools\\net451\\Extensions"
+]
+TpTrace Information: 0 : 10996, 1, 2020/09/18, 18:31:27.235, 48580857047, vstest.console.exe, TestRequestManager.InitializeExtensions: Initialize extensions started.
+TpTrace Information: 0 : 10996, 1, 2020/09/18, 18:31:27.237, 48580876960, vstest.console.exe, TestRequestManager.InitializeExtensions: Initialize extensions completed.
+TpTrace Information: 0 : 10996, 1, 2020/09/18, 18:31:27.244, 48580947850, vstest.console.exe, DesignModeClient.ProcessRequests: Processing Message: (TestExecution.GetTestRunnerProcessStartInfoForRunSelected) -> {
+  "Sources": null,
+  "TestCases": [
+    {
+      "Properties": [
+        {
+          "Key": {
+            "Id": "TestCase.FullyQualifiedName",
+            "Label": "FullyQualifiedName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraJurosUnitTest.SomarJuros"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.ExecutorUri",
+            "Label": "Executor Uri",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Uri"
+          },
+          "Value": "executor://MSTestAdapter/v2"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Source",
+            "Label": "Source",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "C:\\Users\\Cliente\\source\\repos\\Calculadora\\Calc.Unit.Test\\bin\\Debug\\Calc.Unit.Test.dll"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.CodeFilePath",
+            "Label": "File Path",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": null
+        },
+        {
+          "Key": {
+            "Id": "TestCase.DisplayName",
+            "Label": "Name",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "SomarJuros"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Id",
+            "Label": "Id",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Guid"
+          },
+          "Value": "51c62726-77c4-ae4f-e60d-439c608401fd"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.LineNumber",
+            "Label": "Line Number",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Int32"
+          },
+          "Value": -1
+        },
+        {
+          "Key": {
+            "Id": "MSTestDiscoverer.TestClassName",
+            "Label": "ClassName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraJurosUnitTest"
+        },
+        {
+          "Key": {
+            "Id": "TestObject.Traits",
+            "Label": "Características",
+            "Category": "",
+            "Description": "",
+            "Attributes": 5,
+            "ValueType": "System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"
+          },
+          "Value": []
+        }
+      ]
+    },
+    {
+      "Properties": [
+        {
+          "Key": {
+            "Id": "TestCase.FullyQualifiedName",
+            "Label": "FullyQualifiedName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraJurosUnitTest.SomarJuros2_Exception"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.ExecutorUri",
+            "Label": "Executor Uri",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Uri"
+          },
+          "Value": "executor://MSTestAdapter/v2"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Source",
+            "Label": "Source",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "C:\\Users\\Cliente\\source\\repos\\Calculadora\\Calc.Unit.Test\\bin\\Debug\\Calc.Unit.Test.dll"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.CodeFilePath",
+            "Label": "File Path",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": null
+        },
+        {
+          "Key": {
+            "Id": "TestCase.DisplayName",
+            "Label": "Name",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "SomarJuros2_Exception"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Id",
+            "Label": "Id",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Guid"
+          },
+          "Value": "72b6a49a-f71b-4056-9d9e-ad13a5c9f0d2"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.LineNumber",
+            "Label": "Line Number",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Int32"
+          },
+          "Value": -1
+        },
+        {
+          "Key": {
+            "Id": "MSTestDiscoverer.TestClassName",
+            "Label": "ClassName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraJurosUnitTest"
+        },
+        {
+          "Key": {
+            "Id": "TestObject.Traits",
+            "Label": "Características",
+            "Category": "",
+            "Description": "",
+            "Attributes": 5,
+            "ValueType": "System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"
+          },
+          "Value": []
+        }
+      ]
+    }
+  ],
+  "RunSettings": "<RunSettings>\r\n <RunConfiguration>\r\n<DisableAppDomain>true</DisableAppDomain>\r\n  <MaxCpuCount>1</MaxCpuCount>\r\n  <TargetFrameworkVersion>.NETFramework,Version=v4.6</TargetFrameworkVersion><TestSessionTimeout>7877</TestSessionTimeout>\r\n\r\n<DesignMode>false</DesignMode>\r\n<BatchSize>1</BatchSize>\r\n </RunConfiguration><InProcDataCollectionRunSettings><InProcDataCollectors><InProcDataCollector friendlyName=\"StrykerCoverage\" uri=\"https://stryker-mutator.io/\" codebase=\"C:\\Users\\Cliente\\.dotnet\\tools\\.store\\dotnet-stryker\\0.19.0\\dotnet-stryker\\0.19.0\\tools\\netcoreapp3.1\\any\\Stryker.DataCollector.dll\" assemblyQualifiedName=\"Stryker.DataCollector.CoverageCollector, Stryker.DataCollector, Version=0.16.1.0, Culture=neutral, PublicKeyToken=null\">\r\n<Configuration><Parameters><Mutant id='5' tests='51c62726-77c4-ae4f-e60d-439c608401fd,72b6a49a-f71b-4056-9d9e-ad13a5c9f0d2'/><MutantControl  name='StrykerQvtBuQjxd8sbjk1.MutantControl'/></Parameters></Configuration></InProcDataCollector></InProcDataCollectors></InProcDataCollectionRunSettings>\r\n</RunSettings>",
+  "KeepAlive": false,
+  "DebuggingEnabled": false,
+  "TestPlatformOptions": null
+}
+TpTrace Information: 0 : 10996, 6, 2020/09/18, 18:31:27.282, 48581326143, vstest.console.exe, TestRequestManager.RunTests: run tests started.
+TpTrace Information: 0 : 10996, 6, 2020/09/18, 18:31:27.379, 48582290290, vstest.console.exe, AssemblyMetadataProvider.GetFrameWork: Determined framework:'.NETFramework,Version=v4.6.1' for source: 'C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\Calc.Unit.Test.dll'
+TpTrace Information: 0 : 10996, 6, 2020/09/18, 18:31:27.379, 48582292721, vstest.console.exe, Determined framework for all sources: .NETFramework,Version=v4.6.1
+TpTrace Information: 0 : 10996, 6, 2020/09/18, 18:31:27.383, 48582333869, vstest.console.exe, AssemblyMetadataProvider.GetArchitecture: Determined architecture:AnyCPU info for assembly: C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\Calc.Unit.Test.dll
+TpTrace Information: 0 : 10996, 6, 2020/09/18, 18:31:27.385, 48582348772, vstest.console.exe, Determined platform for all sources: X86
+TpTrace Warning: 0 : 10996, 6, 2020/09/18, 18:31:27.392, 48582420668, vstest.console.exe, A execução de teste usará DLLs criadas para a estrutura .NETFramework,Version=v4.6 e a plataforma X86. As seguintes DLLs não farão parte da execução: 
+Calc.Unit.Test.dll é compilado para Framework .NETFramework,Version=v4.6.1 e Platform AnyCPU.
+Acesse http://go.microsoft.com/fwlink/?LinkID=236877&clcid=0x409 para obter mais detalhes sobre como gerenciar essas configurações.
+
+TpTrace Information: 0 : 10996, 6, 2020/09/18, 18:31:27.401, 48582512682, vstest.console.exe, Compatible sources list : 
+TpTrace Information: 0 : 10996, 6, 2020/09/18, 18:31:27.401, 48582514366, vstest.console.exe, 
+TpTrace Information: 0 : 10996, 6, 2020/09/18, 18:31:27.411, 48582616282, vstest.console.exe, InferRunSettingsHelper.IsTestSettingsEnabled: Unable to navigate to RunSettings/MSTest. Current node: RunSettings
+TpTrace Information: 0 : 10996, 6, 2020/09/18, 18:31:27.461, 48583108072, vstest.console.exe, AssemblyResolver.OnResolve: Microsoft.TestPlatform.TestHostRuntimeProvider, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 10996, 6, 2020/09/18, 18:31:27.462, 48583122387, vstest.console.exe, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.TestHostRuntimeProvider, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, from path: C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\Extensions\Microsoft.TestPlatform.TestHostRuntimeProvider.dll
+TpTrace Information: 0 : 10996, 6, 2020/09/18, 18:31:27.463, 48583130368, vstest.console.exe, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.Hosting.DefaultTestHostManager
+TpTrace Information: 0 : 10996, 6, 2020/09/18, 18:31:27.473, 48583235687, vstest.console.exe, InferRunSettingsHelper.IsTestSettingsEnabled: Unable to navigate to RunSettings/MSTest. Current node: RunSettings
+TpTrace Information: 0 : 10996, 6, 2020/09/18, 18:31:27.486, 48583365975, vstest.console.exe, TestRunRequest.ExecuteAsync: Starting run with settings:TestRunCriteria:
+   KeepAlive=False,FrequencyOfRunStatsChangeEvent=1,RunStatsChangeEventTimeout=00:00:01.5000000,TestCaseFilter=,TestExecutorLauncher=Microsoft.VisualStudio.TestPlatform.Client.DesignMode.DesignModeTestHostLauncher
+   Settingsxml=<RunSettings>
+  <RunConfiguration>
+    <DisableAppDomain>true</DisableAppDomain>
+    <MaxCpuCount>1</MaxCpuCount>
+    <TargetFrameworkVersion>.NETFramework,Version=v4.6</TargetFrameworkVersion>
+    <TestSessionTimeout>7877</TestSessionTimeout>
+    <DesignMode>false</DesignMode>
+    <BatchSize>1</BatchSize>
+    <TargetPlatform>X86</TargetPlatform>
+    <CollectSourceInformation>True</CollectSourceInformation>
+  </RunConfiguration>
+  <InProcDataCollectionRunSettings>
+    <InProcDataCollectors>
+      <InProcDataCollector friendlyName="StrykerCoverage" uri="https://stryker-mutator.io/" codebase="C:\Users\Cliente\.dotnet\tools\.store\dotnet-stryker\0.19.0\dotnet-stryker\0.19.0\tools\netcoreapp3.1\any\Stryker.DataCollector.dll" assemblyQualifiedName="Stryker.DataCollector.CoverageCollector, Stryker.DataCollector, Version=0.16.1.0, Culture=neutral, PublicKeyToken=null">
+        <Configuration>
+          <Parameters>
+            <Mutant id="5" tests="51c62726-77c4-ae4f-e60d-439c608401fd,72b6a49a-f71b-4056-9d9e-ad13a5c9f0d2" />
+            <MutantControl name="StrykerQvtBuQjxd8sbjk1.MutantControl" />
+          </Parameters>
+        </Configuration>
+      </InProcDataCollector>
+    </InProcDataCollectors>
+  </InProcDataCollectionRunSettings>
+  <LoggerRunSettings>
+    <Loggers>
+      <Logger friendlyName="Console" uri="logger://microsoft/TestPlatform/ConsoleLogger/v1" assemblyQualifiedName="Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" codeBase="C:\Users\Cliente\AppData\Local\Temp\05szxyx1.0mq\.vstest\tools\net451\vstest.console.exe" enabled="True" />
+    </Loggers>
+  </LoggerRunSettings>
+</RunSettings>
+
+TpTrace Information: 0 : 10996, 6, 2020/09/18, 18:31:27.506, 48583558166, vstest.console.exe, ProxyParallelExecutionManager: Triggering test run for next source: C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\Calc.Unit.Test.dll
+TpTrace Information: 0 : 10996, 6, 2020/09/18, 18:31:27.506, 48583563638, vstest.console.exe, TestRunRequest.ExecuteAsync: Started.
+TpTrace Information: 0 : 10996, 9, 2020/09/18, 18:31:27.514, 48583639607, vstest.console.exe, SocketServer.Start: Listening on endpoint : 127.0.0.1:50597
+TpTrace Information: 0 : 10996, 1, 2020/09/18, 18:31:28.119, 48589689900, vstest.console.exe, DesignModeClient.ProcessRequests: Processing Message: (TestExecution.CustomTestHostLaunchCallback) -> {
+  "HostProcessId": 6916,
+  "ErrorMessage": null
+}
+TpTrace Information: 0 : 10996, 9, 2020/09/18, 18:31:28.799, 48596494154, vstest.console.exe, TestRunRequest:SendTestRunMessage: Completed.
+TpTrace Information: 0 : 10996, 7, 2020/09/18, 18:31:28.813, 48596630171, vstest.console.exe, TestRunRequest:SendTestRunMessage: Completed.
+TpTrace Information: 0 : 10996, 7, 2020/09/18, 18:31:29.458, 48603081162, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 10996, 1, 2020/09/18, 18:31:29.797, 48606473395, vstest.console.exe, DesignModeClient.ProcessRequests: Processing Message: (TestExecution.Cancel) -> null
+TpTrace Information: 0 : 10996, 1, 2020/09/18, 18:31:29.797, 48606475804, vstest.console.exe, TestRequestManager.CancelTestRun: Sending cancel request.
+TpTrace Information: 0 : 10996, 1, 2020/09/18, 18:31:29.799, 48606490413, vstest.console.exe, TestRunRequest.CancelAsync: Canceled.
+TpTrace Information: 0 : 10996, 7, 2020/09/18, 18:31:29.805, 48606556989, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 10996, 7, 2020/09/18, 18:31:29.806, 48606564421, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 10996, 7, 2020/09/18, 18:31:29.825, 48606750367, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Warning: 0 : 10996, 7, 2020/09/18, 18:31:29.942, 48607917780, vstest.console.exe, ProxyOperationManager: Timed out waiting for test host to exit. Will terminate process.
+TpTrace Error: 0 : 10996, 4, 2020/09/18, 18:31:29.960, 48608100433, vstest.console.exe, TestHostManagerCallbacks.ExitCallBack: Testhost processId: 6916 exited with exitcode: -1 error: ''
+TpTrace Information: 0 : 10996, 7, 2020/09/18, 18:31:29.961, 48608117042, vstest.console.exe, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Information: 0 : 10996, 7, 2020/09/18, 18:31:29.980, 48608299670, vstest.console.exe, TestRunRequest:TestRunComplete: Completed.
+TpTrace Information: 0 : 10996, 7, 2020/09/18, 18:31:29.980, 48608304313, vstest.console.exe, SocketServer.Stop: Stop server endPoint: 127.0.0.1:50597
+TpTrace Information: 0 : 10996, 7, 2020/09/18, 18:31:29.980, 48608305051, vstest.console.exe, SocketServer.Stop: Cancellation requested. Stopping message loop.
+TpTrace Information: 0 : 10996, 7, 2020/09/18, 18:31:29.981, 48608308954, vstest.console.exe, SocketServer.PrivateStop: Stop server endPoint: 127.0.0.1:50597 error: 
+TpTrace Information: 0 : 10996, 6, 2020/09/18, 18:31:29.981, 48608312145, vstest.console.exe, TestRunRequest.Dispose: Completed.
+TpTrace Information: 0 : 10996, 7, 2020/09/18, 18:31:29.981, 48608312946, vstest.console.exe, SocketServer.Stop: Raise disconnected event endPoint: 127.0.0.1:50597 error: 
+TpTrace Information: 0 : 10996, 6, 2020/09/18, 18:31:29.981, 48608313010, vstest.console.exe, TestRequestManager.RunTests: run tests completed.
+TpTrace Error: 0 : 10996, 1, 2020/09/18, 18:31:30.334, 48611838490, vstest.console.exe, DesignModeClient: Error processing request: System.IO.IOException: Não é possível ler os dados da conexão de transporte: Foi forçado o cancelamento de uma conexão existente pelo host remoto. ---> System.Net.Sockets.SocketException: Foi forçado o cancelamento de uma conexão existente pelo host remoto
+   em System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   em System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   em System.IO.Stream.ReadByte()
+   em System.IO.BinaryReader.ReadByte()
+   em System.IO.BinaryReader.Read7BitEncodedInt()
+   em System.IO.BinaryReader.ReadString()
+   em Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   em Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   em Microsoft.VisualStudio.TestPlatform.Client.DesignMode.DesignModeClient.ProcessRequests(ITestRequestManager testRequestManager)

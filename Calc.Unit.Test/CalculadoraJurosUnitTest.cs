@@ -10,13 +10,19 @@ namespace Calc.Unit.Test
     [TestClass]
     public class CalculadoraJurosUnitTest
     {
-        private static Mock<ICalculadora> _calculadoraMock = new Mock<ICalculadora>(MockBehavior.Strict);
+        private static Mock<ICalculadora> _calculadoraMock;
 
-        private CalculadoraJuros _calculadoraJuros = new CalculadoraJuros
+        private CalculadoraJuros _calculadoraJuros;
+
+        public CalculadoraJurosUnitTest()
         {
-            Calculadora = _calculadoraMock.Object,
-        };
-        
+            _calculadoraMock = new Mock<ICalculadora>(MockBehavior.Strict);
+            _calculadoraJuros = new CalculadoraJuros
+            {
+                Calculadora = _calculadoraMock.Object
+            };
+        }
+
         [TestMethod]
         public void SomarJuros()
         {
