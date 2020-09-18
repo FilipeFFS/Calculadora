@@ -21,33 +21,41 @@ namespace Calc.Unit.Test
         public void SomarJuros()
         {
             //Arrange
-            var n1 = 10;
-            var n2 = 10;
-            _calculadoraMock.Setup(_ => _.Somar(n1, n2)).Returns(n1+n2);
+            var valor = 10;
+            var jurosEmPorcentagem = 10;
+            var jurosCalculado = 1;
+            var valorTotal = valor + jurosCalculado;
+
+            //Setup
+            _calculadoraMock.Setup(_ => _.Somar(valor, jurosCalculado)).Returns(11);
 
             //Act
-            var response = _calculadoraJuros.SomarJuros(n1, n2);
+            var response = _calculadoraJuros.SomarJuros(valor, jurosEmPorcentagem);
 
             //Assert
-            Assert.AreEqual(response, 20);
-            _calculadoraMock.Verify(_ => _.Somar(n1, n2), Times.Once);
+            Assert.AreEqual(response, valorTotal);
+            response.Should().BeOfType(typeof(double));
+            _calculadoraMock.Verify(_ => _.Somar(valor, jurosCalculado), Times.Once);
         }
 
         [TestMethod]
-        public void SomarJuros2()
+        public void SomarJuros2_Exception()
         {
             //Arrange
-            var n1 = 10;
-            var n2 = 10;
+            var valor = 10;
+            var jurosEmPorcentagem = 10;
+            var jurosCalculado = 1;
+            var valorTotal = valor + jurosCalculado;
+
             var exception = new Exception("Deu ruim");
-            _calculadoraMock.Setup(_ => _.Somar(n1, n2)).Throws(exception);
+            _calculadoraMock.Setup(_ => _.Somar(valor, jurosCalculado)).Throws(exception);
 
             //Act
-            Action response = () => _calculadoraJuros.SomarJuros(n1, n2);
+            Action response = () => _calculadoraJuros.SomarJuros(valor, jurosEmPorcentagem);
 
             //Assert
             response.Should().Throw<Exception>();
-            _calculadoraMock.Verify(_ => _.Somar(n1, n2), Times.Once);
+            _calculadoraMock.Verify(_ => _.Somar(valor, jurosCalculado), Times.Once);
         }
     }
 }

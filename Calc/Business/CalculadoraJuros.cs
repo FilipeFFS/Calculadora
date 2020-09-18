@@ -1,9 +1,4 @@
 ﻿using Calc.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Calc.Business
 {
@@ -11,10 +6,16 @@ namespace Calc.Business
     {
         public ICalculadora Calculadora { get; set; }
 
-        public double SomarJuros(double n1, double n2)
+        public double SomarJuros(double valor, double jurosEmPorcentagem)
         {
-            var response = Calculadora.Somar(n1, n2);
+            var juros = CalcularValorJuros(valor, jurosEmPorcentagem);
+            var response = Calculadora.Somar(valor, juros);
             return response;
+        }
+
+        private static double CalcularValorJuros(double valor, double jurosEmPorcentagem)
+        {
+            return valor * (jurosEmPorcentagem / 100);
         }
     }
 }
