@@ -73,6 +73,7 @@
     <Compile Include="CalculadoraUnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CalculadoraJurosUnitTest.cs" />
+    <Compile Include="ValidadorUnitTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

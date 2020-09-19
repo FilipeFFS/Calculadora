@@ -9,9 +9,9 @@ C:\Users\filipe.suyama\source\repos\Calculadora\Calc\obj\Debug\Calc.csprojAssemb
 C:\Users\filipe.suyama\source\repos\Calculadora\Calc\obj\Debug\Calc.csproj.CoreCompileInputs.cache
 C:\Users\filipe.suyama\source\repos\Calculadora\Calc\obj\Debug\Calc.dll
 C:\Users\filipe.suyama\source\repos\Calculadora\Calc\obj\Debug\Calc.pdb
-C:\Users\Cliente\source\repos\Calculadora\Calc\obj\Debug\Calc.dll
-C:\Users\Cliente\source\repos\Calculadora\Calc\obj\Debug\Calc.pdb
 C:\Users\Cliente\source\repos\Calculadora\Calc\bin\Debug\Calc.dll
 C:\Users\Cliente\source\repos\Calculadora\Calc\bin\Debug\Calc.pdb
 C:\Users\Cliente\source\repos\Calculadora\Calc\obj\Debug\Calc.csprojAssemblyReference.cache
 C:\Users\Cliente\source\repos\Calculadora\Calc\obj\Debug\Calc.csproj.CoreCompileInputs.cache
+C:\Users\Cliente\source\repos\Calculadora\Calc\obj\Debug\Calc.dll
+C:\Users\Cliente\source\repos\Calculadora\Calc\obj\Debug\Calc.pdb

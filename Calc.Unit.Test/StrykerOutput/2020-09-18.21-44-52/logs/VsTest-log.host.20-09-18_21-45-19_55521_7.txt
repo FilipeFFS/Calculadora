@@ -1,0 +1,1110 @@
+TpTrace Information: 0 : 2924, 1, 2020/09/18, 21:45:20.259, 164828285009, testhost.x86.exe, DefaultEngineInvoker.Invoke: Testhost process started with args :[--port, 52100],[--endpoint, 127.0.0.1:052100],[--role, client],[--parentprocessid, 13452],[--diag, C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\StrykerOutput\2020-09-18.21-44-52\logs\VsTest-log.host.20-09-18_21-45-19_55521_7.txt],[--tracelevel, 3],[--telemetryoptedin, false]
+TpTrace Information: 0 : 2924, 1, 2020/09/18, 21:45:20.268, 164828364715, testhost.x86.exe, DefaultEngineInvoker: Using Application Configuration: '<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <startup useLegacyV2RuntimeActivationPolicy="true">
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0" />
+  </startup>
+  <runtime>
+    <legacyUnhandledExceptionPolicy enabled="1" />
+    <legacyCorruptedStateExceptionsPolicy enabled="true" />
+    <!-- To get stacktrace information for portable and embedded pdbs when net472 installed on machine.
+          More details https://github.com/dotnet/designs/blob/master/accepted/diagnostics/debugging-with-symbols-and-sources.md#stack-traces -->
+    <AppContextSwitchOverrides value="Switch.System.Diagnostics.IgnorePortablePDBsInStackTraces=false" />
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <probing privatePath="Extensions" />
+      <!-- Test adapters compiled against version 11-14, need to be redirected to version 15. -->
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.VisualStudio.TestPlatform.ObjectModel" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="11.0.0.0-14.0.0.0" newVersion="15.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.VisualStudio.TestWindow.Interfaces" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="11.0.0.0-15.0.0.0" newVersion="16.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.VisualStudio.QualityTools.UnitTestFramework" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="10.1.0.0" newVersion="10.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.VisualStudio.QualityTools.Resource" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="10.0.0.0-15.0.0.0" newVersion="16.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.VisualStudio.QualityTools.ControllerObject" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="10.0.0.0-15.0.0.0" newVersion="16.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.VisualStudio.QualityTools.ExecutionCommon" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="10.0.0.0-15.0.0.0" newVersion="16.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.VisualStudio.QualityTools.Common" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="10.0.0.0-15.0.0.0" newVersion="16.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="10.0.0.0-15.0.0.0" newVersion="16.0.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+  <system.diagnostics>
+    <switches>
+      <add name="TpTraceLevel" value="0" />
+    </switches>
+  </system.diagnostics>
+  <appSettings>
+    <!--<add key="ExecutionThreadApartmentState" value ="MTA"/>-->
+    <!--<add key="TraceLogMaxFileSizeInKb" value ="10240"/>-->
+    <!-- MsTest Adapter Specific AppSettings -->
+    <!-- This flag is added to support test execution for net35 tests through TMI adapter. -->
+    <add key="TestProjectRetargetTo35Allowed" value="true" />
+  </appSettings>
+</configuration>'
+TpTrace Information: 0 : 2924, 1, 2020/09/18, 21:45:20.269, 164828373847, testhost.x86.exe, DefaultEngineInvoker.SetParentProcessExitCallback: Monitoring parent process with id: '13452'
+TpTrace Information: 0 : 2924, 1, 2020/09/18, 21:45:20.293, 164828615900, testhost.x86.exe, DefaultEngineInvoker.GetConnectionInfo: Initialize communication on endpoint address: '127.0.0.1:052100'
+TpTrace Information: 0 : 2924, 1, 2020/09/18, 21:45:20.378, 164829458367, testhost.x86.exe, SocketClient.Start: connecting to server endpoint: 127.0.0.1:052100
+TpTrace Information: 0 : 2924, 1, 2020/09/18, 21:45:20.397, 164829647495, testhost.x86.exe, DefaultEngineInvoker.Invoke: Start Request Processing.
+TpTrace Information: 0 : 2924, 10, 2020/09/18, 21:45:20.443, 164830113590, testhost.x86.exe, SocketClient.OnServerConnected: connected to server endpoint: 127.0.0.1:052100
+TpTrace Information: 0 : 2924, 7, 2020/09/18, 21:45:20.446, 164830135660, testhost.x86.exe, DefaultEngineInvoker.StartProcessingAsync: Connected to vstest.console, Starting process requests.
+TpTrace Information: 0 : 2924, 10, 2020/09/18, 21:45:20.730, 164832991438, testhost.x86.exe, TestRequestHandler.ProcessRequests: received message: (ProtocolVersion) -> 3
+TpTrace Information: 0 : 2924, 10, 2020/09/18, 21:45:20.842, 164834103109, testhost.x86.exe, TestRequestHandler.ProcessRequests: received message: (TestExecution.Initialize) -> [
+  "C:\\Users\\Cliente\\AppData\\Local\\Temp\\bsiyo4bn.0fo\\.vstest\\tools\\net451\\Extensions\\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll",
+  "C:\\Users\\Cliente\\AppData\\Local\\Temp\\bsiyo4bn.0fo\\.vstest\\tools\\net451\\Extensions\\Microsoft.TestPlatform.TestHostRuntimeProvider.dll",
+  "C:\\Users\\Cliente\\AppData\\Local\\Temp\\bsiyo4bn.0fo\\.vstest\\tools\\net451\\Extensions\\Microsoft.VisualStudio.TestPlatform.Extensions.Html.TestLogger.dll",
+  "C:\\Users\\Cliente\\AppData\\Local\\Temp\\bsiyo4bn.0fo\\.vstest\\tools\\net451\\Extensions\\Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.dll",
+  "C:\\Users\\Cliente\\source\\repos\\Calculadora\\Calc.Unit.Test\\bin\\Debug\\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll"
+]
+TpTrace Information: 0 : 2924, 10, 2020/09/18, 21:45:20.842, 164834104799, testhost.x86.exe, Execution Session Initialize.
+TpTrace Information: 0 : 2924, 10, 2020/09/18, 21:45:20.884, 164834526578, testhost.x86.exe, TestRequestHandler.ProcessRequests: received message: (TestExecution.StartWithTests) -> {
+  "Tests": [
+    {
+      "Properties": [
+        {
+          "Key": {
+            "Id": "TestCase.FullyQualifiedName",
+            "Label": "FullyQualifiedName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraUnitTest.Somar"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.ExecutorUri",
+            "Label": "Executor Uri",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Uri"
+          },
+          "Value": "executor://MSTestAdapter/v2"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Source",
+            "Label": "Source",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "C:\\Users\\Cliente\\source\\repos\\Calculadora\\Calc.Unit.Test\\bin\\Debug\\Calc.Unit.Test.dll"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.CodeFilePath",
+            "Label": "File Path",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": null
+        },
+        {
+          "Key": {
+            "Id": "TestCase.DisplayName",
+            "Label": "Name",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "Somar"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Id",
+            "Label": "Id",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Guid"
+          },
+          "Value": "68dedd4b-3da6-9474-35ab-19a75362a2f7"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.LineNumber",
+            "Label": "Line Number",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Int32"
+          },
+          "Value": -1
+        },
+        {
+          "Key": {
+            "Id": "MSTestDiscoverer.TestClassName",
+            "Label": "ClassName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraUnitTest"
+        },
+        {
+          "Key": {
+            "Id": "TestObject.Traits",
+            "Label": "Características",
+            "Category": "",
+            "Description": "",
+            "Attributes": 5,
+            "ValueType": "System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"
+          },
+          "Value": []
+        }
+      ]
+    },
+    {
+      "Properties": [
+        {
+          "Key": {
+            "Id": "TestCase.FullyQualifiedName",
+            "Label": "FullyQualifiedName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraUnitTest.Subtrair"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.ExecutorUri",
+            "Label": "Executor Uri",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Uri"
+          },
+          "Value": "executor://MSTestAdapter/v2"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Source",
+            "Label": "Source",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "C:\\Users\\Cliente\\source\\repos\\Calculadora\\Calc.Unit.Test\\bin\\Debug\\Calc.Unit.Test.dll"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.CodeFilePath",
+            "Label": "File Path",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": null
+        },
+        {
+          "Key": {
+            "Id": "TestCase.DisplayName",
+            "Label": "Name",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "Subtrair"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Id",
+            "Label": "Id",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Guid"
+          },
+          "Value": "be316bd3-820f-9a10-ea16-e92564c61c39"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.LineNumber",
+            "Label": "Line Number",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Int32"
+          },
+          "Value": -1
+        },
+        {
+          "Key": {
+            "Id": "MSTestDiscoverer.TestClassName",
+            "Label": "ClassName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraUnitTest"
+        },
+        {
+          "Key": {
+            "Id": "TestObject.Traits",
+            "Label": "Características",
+            "Category": "",
+            "Description": "",
+            "Attributes": 5,
+            "ValueType": "System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"
+          },
+          "Value": []
+        }
+      ]
+    },
+    {
+      "Properties": [
+        {
+          "Key": {
+            "Id": "TestCase.FullyQualifiedName",
+            "Label": "FullyQualifiedName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraUnitTest.Dividir"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.ExecutorUri",
+            "Label": "Executor Uri",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Uri"
+          },
+          "Value": "executor://MSTestAdapter/v2"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Source",
+            "Label": "Source",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "C:\\Users\\Cliente\\source\\repos\\Calculadora\\Calc.Unit.Test\\bin\\Debug\\Calc.Unit.Test.dll"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.CodeFilePath",
+            "Label": "File Path",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": null
+        },
+        {
+          "Key": {
+            "Id": "TestCase.DisplayName",
+            "Label": "Name",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "Dividir"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Id",
+            "Label": "Id",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Guid"
+          },
+          "Value": "c4e64bae-a42a-81dc-6b93-3216b7d9a786"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.LineNumber",
+            "Label": "Line Number",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Int32"
+          },
+          "Value": -1
+        },
+        {
+          "Key": {
+            "Id": "MSTestDiscoverer.TestClassName",
+            "Label": "ClassName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraUnitTest"
+        },
+        {
+          "Key": {
+            "Id": "TestObject.Traits",
+            "Label": "Características",
+            "Category": "",
+            "Description": "",
+            "Attributes": 5,
+            "ValueType": "System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"
+          },
+          "Value": []
+        }
+      ]
+    },
+    {
+      "Properties": [
+        {
+          "Key": {
+            "Id": "TestCase.FullyQualifiedName",
+            "Label": "FullyQualifiedName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraUnitTest.Multiplicacao"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.ExecutorUri",
+            "Label": "Executor Uri",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Uri"
+          },
+          "Value": "executor://MSTestAdapter/v2"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Source",
+            "Label": "Source",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "C:\\Users\\Cliente\\source\\repos\\Calculadora\\Calc.Unit.Test\\bin\\Debug\\Calc.Unit.Test.dll"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.CodeFilePath",
+            "Label": "File Path",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": null
+        },
+        {
+          "Key": {
+            "Id": "TestCase.DisplayName",
+            "Label": "Name",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "Multiplicacao"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Id",
+            "Label": "Id",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Guid"
+          },
+          "Value": "c525d128-58e3-1627-690a-792292d84a1c"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.LineNumber",
+            "Label": "Line Number",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Int32"
+          },
+          "Value": -1
+        },
+        {
+          "Key": {
+            "Id": "MSTestDiscoverer.TestClassName",
+            "Label": "ClassName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraUnitTest"
+        },
+        {
+          "Key": {
+            "Id": "TestObject.Traits",
+            "Label": "Características",
+            "Category": "",
+            "Description": "",
+            "Attributes": 5,
+            "ValueType": "System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"
+          },
+          "Value": []
+        }
+      ]
+    },
+    {
+      "Properties": [
+        {
+          "Key": {
+            "Id": "TestCase.FullyQualifiedName",
+            "Label": "FullyQualifiedName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraJurosUnitTest.SomarJuros"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.ExecutorUri",
+            "Label": "Executor Uri",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Uri"
+          },
+          "Value": "executor://MSTestAdapter/v2"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Source",
+            "Label": "Source",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "C:\\Users\\Cliente\\source\\repos\\Calculadora\\Calc.Unit.Test\\bin\\Debug\\Calc.Unit.Test.dll"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.CodeFilePath",
+            "Label": "File Path",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": null
+        },
+        {
+          "Key": {
+            "Id": "TestCase.DisplayName",
+            "Label": "Name",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "SomarJuros"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Id",
+            "Label": "Id",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Guid"
+          },
+          "Value": "51c62726-77c4-ae4f-e60d-439c608401fd"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.LineNumber",
+            "Label": "Line Number",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Int32"
+          },
+          "Value": -1
+        },
+        {
+          "Key": {
+            "Id": "MSTestDiscoverer.TestClassName",
+            "Label": "ClassName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraJurosUnitTest"
+        },
+        {
+          "Key": {
+            "Id": "TestObject.Traits",
+            "Label": "Características",
+            "Category": "",
+            "Description": "",
+            "Attributes": 5,
+            "ValueType": "System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"
+          },
+          "Value": []
+        }
+      ]
+    },
+    {
+      "Properties": [
+        {
+          "Key": {
+            "Id": "TestCase.FullyQualifiedName",
+            "Label": "FullyQualifiedName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraJurosUnitTest.SomarJuros2_Exception"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.ExecutorUri",
+            "Label": "Executor Uri",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Uri"
+          },
+          "Value": "executor://MSTestAdapter/v2"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Source",
+            "Label": "Source",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "C:\\Users\\Cliente\\source\\repos\\Calculadora\\Calc.Unit.Test\\bin\\Debug\\Calc.Unit.Test.dll"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.CodeFilePath",
+            "Label": "File Path",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": null
+        },
+        {
+          "Key": {
+            "Id": "TestCase.DisplayName",
+            "Label": "Name",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "SomarJuros2_Exception"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Id",
+            "Label": "Id",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Guid"
+          },
+          "Value": "72b6a49a-f71b-4056-9d9e-ad13a5c9f0d2"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.LineNumber",
+            "Label": "Line Number",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Int32"
+          },
+          "Value": -1
+        },
+        {
+          "Key": {
+            "Id": "MSTestDiscoverer.TestClassName",
+            "Label": "ClassName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.CalculadoraJurosUnitTest"
+        },
+        {
+          "Key": {
+            "Id": "TestObject.Traits",
+            "Label": "Características",
+            "Category": "",
+            "Description": "",
+            "Attributes": 5,
+            "ValueType": "System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"
+          },
+          "Value": []
+        }
+      ]
+    },
+    {
+      "Properties": [
+        {
+          "Key": {
+            "Id": "TestCase.FullyQualifiedName",
+            "Label": "FullyQualifiedName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.ValidadorUnitTest.MaiorQueUm_True"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.ExecutorUri",
+            "Label": "Executor Uri",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Uri"
+          },
+          "Value": "executor://MSTestAdapter/v2"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Source",
+            "Label": "Source",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "C:\\Users\\Cliente\\source\\repos\\Calculadora\\Calc.Unit.Test\\bin\\Debug\\Calc.Unit.Test.dll"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.CodeFilePath",
+            "Label": "File Path",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": null
+        },
+        {
+          "Key": {
+            "Id": "TestCase.DisplayName",
+            "Label": "Name",
+            "Category": "",
+            "Description": "",
+            "Attributes": 0,
+            "ValueType": "System.String"
+          },
+          "Value": "MaiorQueUm_True"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.Id",
+            "Label": "Id",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Guid"
+          },
+          "Value": "49d9270c-51e7-a470-809d-61f600a99513"
+        },
+        {
+          "Key": {
+            "Id": "TestCase.LineNumber",
+            "Label": "Line Number",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.Int32"
+          },
+          "Value": -1
+        },
+        {
+          "Key": {
+            "Id": "MSTestDiscoverer.TestClassName",
+            "Label": "ClassName",
+            "Category": "",
+            "Description": "",
+            "Attributes": 1,
+            "ValueType": "System.String"
+          },
+          "Value": "Calc.Unit.Test.ValidadorUnitTest"
+        },
+        {
+          "Key": {
+            "Id": "TestObject.Traits",
+            "Label": "Características",
+            "Category": "",
+            "Description": "",
+            "Attributes": 5,
+            "ValueType": "System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"
+          },
+          "Value": []
+        }
+      ]
+    }
+  ],
+  "RunSettings": "<RunSettings>\r\n  <RunConfiguration>\r\n    <DisableAppDomain>true</DisableAppDomain>\r\n    <MaxCpuCount>1</MaxCpuCount>\r\n    <TargetFrameworkVersion>.NETFramework,Version=v4.6</TargetFrameworkVersion>\r\n    <TestSessionTimeout>9585</TestSessionTimeout>\r\n    <DesignMode>false</DesignMode>\r\n    <BatchSize>1</BatchSize>\r\n    <TargetPlatform>X86</TargetPlatform>\r\n    <CollectSourceInformation>True</CollectSourceInformation>\r\n  </RunConfiguration>\r\n  <InProcDataCollectionRunSettings>\r\n    <InProcDataCollectors>\r\n      <InProcDataCollector friendlyName=\"StrykerCoverage\" uri=\"https://stryker-mutator.io/\" codebase=\"C:\\Users\\Cliente\\.dotnet\\tools\\.store\\dotnet-stryker\\0.19.0\\dotnet-stryker\\0.19.0\\tools\\netcoreapp3.1\\any\\Stryker.DataCollector.dll\" assemblyQualifiedName=\"Stryker.DataCollector.CoverageCollector, Stryker.DataCollector, Version=0.16.1.0, Culture=neutral, PublicKeyToken=null\">\r\n        <Configuration>\r\n          <Parameters>\r\n            <Mutant id=\"4\" tests=\"51c62726-77c4-ae4f-e60d-439c608401fd,72b6a49a-f71b-4056-9d9e-ad13a5c9f0d2\" />\r\n            <Mutant id=\"0\" tests=\"68dedd4b-3da6-9474-35ab-19a75362a2f7\" />\r\n            <Mutant id=\"1\" tests=\"be316bd3-820f-9a10-ea16-e92564c61c39\" />\r\n            <Mutant id=\"2\" tests=\"c525d128-58e3-1627-690a-792292d84a1c\" />\r\n            <Mutant id=\"3\" tests=\"c4e64bae-a42a-81dc-6b93-3216b7d9a786\" />\r\n            <Mutant id=\"6\" tests=\"49d9270c-51e7-a470-809d-61f600a99513\" />\r\n            <MutantControl name=\"StrykerYlKahFHvs9mFZz5.MutantControl\" />\r\n          </Parameters>\r\n        </Configuration>\r\n      </InProcDataCollector>\r\n    </InProcDataCollectors>\r\n  </InProcDataCollectionRunSettings>\r\n  <LoggerRunSettings>\r\n    <Loggers>\r\n      <Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Users\\Cliente\\AppData\\Local\\Temp\\bsiyo4bn.0fo\\.vstest\\tools\\net451\\vstest.console.exe\" enabled=\"True\" />\r\n    </Loggers>\r\n  </LoggerRunSettings>\r\n</RunSettings>",
+  "TestExecutionContext": {
+    "FrequencyOfRunStatsChangeEvent": 1,
+    "RunStatsChangeEventTimeout": "00:00:01.5000000",
+    "InIsolation": false,
+    "KeepAlive": false,
+    "AreTestCaseLevelEventsRequired": false,
+    "IsDebug": false,
+    "TestCaseFilter": null,
+    "FilterOptions": null
+  },
+  "Package": null
+}
+TpTrace Information: 0 : 2924, 10, 2020/09/18, 21:45:20.885, 164834540790, testhost.x86.exe, Execution started.
+TpTrace Information: 0 : 2924, 5, 2020/09/18, 21:45:20.903, 164834718299, testhost.x86.exe, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451\Extensions,C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug,C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451
+TpTrace Information: 0 : 2924, 5, 2020/09/18, 21:45:20.907, 164834753888, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451
+TpTrace Information: 0 : 2924, 5, 2020/09/18, 21:45:20.907, 164834755778, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451
+TpTrace Information: 0 : 2924, 5, 2020/09/18, 21:45:20.907, 164834756841, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451
+TpTrace Information: 0 : 2924, 5, 2020/09/18, 21:45:20.907, 164834757912, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451
+TpTrace Information: 0 : 2924, 5, 2020/09/18, 21:45:20.907, 164834758816, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug,C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451
+TpTrace Information: 0 : 2924, 5, 2020/09/18, 21:45:21.041, 164836098611, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451\Extensions,C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug,C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451
+TpTrace Information: 0 : 2924, 5, 2020/09/18, 21:45:21.041, 164836100751, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451
+TpTrace Information: 0 : 2924, 5, 2020/09/18, 21:45:21.042, 164836103305, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451
+TpTrace Information: 0 : 2924, 5, 2020/09/18, 21:45:21.042, 164836104420, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451
+TpTrace Information: 0 : 2924, 5, 2020/09/18, 21:45:21.042, 164836105282, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451
+TpTrace Information: 0 : 2924, 5, 2020/09/18, 21:45:21.042, 164836106145, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug,C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451
+TpTrace Information: 0 : 2924, 5, 2020/09/18, 21:45:21.059, 164836280983, testhost.x86.exe, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.MSTestExecutor
+TpTrace Information: 0 : 2924, 5, 2020/09/18, 21:45:21.071, 164836398545, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451\Extensions,C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug,C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451
+TpTrace Information: 0 : 2924, 5, 2020/09/18, 21:45:21.071, 164836400350, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451
+TpTrace Information: 0 : 2924, 5, 2020/09/18, 21:45:21.102, 164836701080, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451
+TpTrace Information: 0 : 2924, 5, 2020/09/18, 21:45:21.102, 164836702907, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451
+TpTrace Information: 0 : 2924, 5, 2020/09/18, 21:45:21.102, 164836704500, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451\Extensions,C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451
+TpTrace Information: 0 : 2924, 5, 2020/09/18, 21:45:21.102, 164836705494, testhost.x86.exe, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug,C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451
+TpTrace Information: 0 : 2924, 5, 2020/09/18, 21:45:21.104, 164836721027, testhost.x86.exe, TestExecutorService: Loaded the extensions
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:21.804, 164843722823, testhost.x86.exe, CollectSourceInformation value Found : True 
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:21.837, 164844061611, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:21.838, 164844066039, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a: Failed to load assembly.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:21.838, 164844068027, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:21.838, 164844068826, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a: Resolved from cache.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:21.841, 164844095260, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:21.841, 164844098828, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a: Failed to load assembly.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:21.866, 164844342515, testhost.x86.exe, MSTestExecutor: Changed the working directory to C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:21.868, 164844369402, testhost.x86.exe, DesktopTestSourceHost.GetResolutionPaths(): Not running in portable mode
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:21.879, 164844475001, testhost.x86.exe, DesktopTestSourceHost.SetupHost(): Creating assembly resolver with resolution paths C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug,C:\Users\Cliente\AppData\Local\Temp\bsiyo4bn.0fo\.vstest\tools\net451.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:21.882, 164844510138, testhost.x86.exe, Created unit-test runner C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\Calc.Unit.Test.dll
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:21.904, 164844725659, testhost.x86.exe, Sending test run statistics
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:21.957, 164845256772, testhost.x86.exe, Executing test Somar
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.040, 164846088511, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.041, 164846092171, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a: Failed to load assembly.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.043, 164846115029, testhost.x86.exe, AssemblyResolver: Resolving assembly: Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.043, 164846119381, testhost.x86.exe, AssemblyResolver: Resolving assembly after applying policy: Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.046, 164846149277, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.047, 164846150516, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a: Resolved from cache.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.047, 164846151359, testhost.x86.exe, AssemblyResolver: Resolving assembly: Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.047, 164846152851, testhost.x86.exe, AssemblyResolver: Resolving assembly after applying policy: Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.047, 164846154900, testhost.x86.exe, AssemblyResolver: Resolved: Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.095, 164846633827, testhost.x86.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a: Failed to load assembly. Reason:System.IO.FileNotFoundException: Não foi possível carregar arquivo ou assembly 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a' ou uma de suas dependências. O sistema não pode encontrar o arquivo especificado.
+Nome do arquivo: 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a'
+   em System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   em System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   em System.Reflection.Assembly.Load(String assemblyString)
+   em Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.AssemblyResolver.OnResolveInternal(Object senderAppDomain, ResolveEventArgs args, Boolean isReflectionOnly)
+
+AVI: o log de associações de assembly está desativado.
+Para ativar o log de  falhas de assembly, defina o valor do Registro [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) como 1.
+Observação: há alguma penalidade para o desempenho associada ao log de falha de associação de assembly.
+Para desativar esse recurso, remova o valor do Registro [HKLM\Software\Microsoft\Fusion!EnableLog].
+ 
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.095, 164846637157, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.095, 164846638040, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a: Resolved from cache.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.095, 164846638770, testhost.x86.exe, AssemblyResolver: Resolving assembly: Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.096, 164846640368, testhost.x86.exe, AssemblyResolver: Resolving assembly after applying policy: Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.096, 164846641143, testhost.x86.exe, AssemblyResolver: Resolved: Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.098, 164846666480, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.098, 164846669894, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a: Failed to load assembly.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.099, 164846674236, testhost.x86.exe, AssemblyResolver: Resolving assembly: Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.099, 164846676612, testhost.x86.exe, AssemblyResolver: Resolving assembly after applying policy: Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.100, 164846681258, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.100, 164846682020, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a: Resolved from cache.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.100, 164846683205, testhost.x86.exe, AssemblyResolver: Resolving assembly: Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.100, 164846684943, testhost.x86.exe, AssemblyResolver: Resolving assembly after applying policy: Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.100, 164846686511, testhost.x86.exe, AssemblyResolver: Resolved: Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.100, 164846689485, testhost.x86.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a: Failed to load assembly. Reason:System.IO.FileLoadException: Não foi possível carregar arquivo ou assembly 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a' ou uma de suas dependências. A definição do manifesto do assembly localizado não corresponde à referência do assembly. (Exceção de HRESULT: 0x80131040)
+Nome do arquivo: 'Microsoft.VisualStudio.TestPlatform.TestFramework.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a'
+   em System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   em System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   em System.Reflection.Assembly.Load(String assemblyString)
+   em Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.AssemblyResolver.OnResolveInternal(Object senderAppDomain, ResolveEventArgs args, Boolean isReflectionOnly)
+
+AVI: o log de associações de assembly está desativado.
+Para ativar o log de  falhas de assembly, defina o valor do Registro [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) como 1.
+Observação: há alguma penalidade para o desempenho associada ao log de falha de associação de assembly.
+Para desativar esse recurso, remova o valor do Registro [HKLM\Software\Microsoft\Fusion!EnableLog].
+ 
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.124, 164846924419, testhost.x86.exe, Executed test Somar
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.130, 164846983020, testhost.x86.exe, TestRunCache: InProgressTests is null
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.131, 164846999704, testhost.x86.exe, MSTestExecutor:Test Calc.Unit.Test.CalculadoraUnitTest.Somar failed. ErrorMessage:Assert.AreEqual failed. Expected:<0>. Actual:<20>. , ErrorStackTrace:   em Calc.Unit.Test.CalculadoraUnitTest.Somar() na C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\CalculadoraUnitTest.cs:linha 22
+.
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.133, 164847015734, testhost.x86.exe, No DataCollection Data set for the test case 68dedd4b-3da6-9474-35ab-19a75362a2f7
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.135, 164847036696, testhost.x86.exe, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.135, 164847038138, testhost.x86.exe, TestRunCache: No test found corresponding to testResult '' in inProgress list.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.136, 164847040136, testhost.x86.exe, Sending test run statistics
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.158, 164847263211, testhost.x86.exe, Sending test run statistics
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.158, 164847269717, testhost.x86.exe, Executing test Subtrair
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.161, 164847292109, testhost.x86.exe, Executed test Subtrair
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.161, 164847293651, testhost.x86.exe, TestRunCache: InProgressTests is null
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.161, 164847295313, testhost.x86.exe, MSTestExecutor:Test Calc.Unit.Test.CalculadoraUnitTest.Subtrair failed. ErrorMessage:Assert.AreEqual failed. Expected:<30>. Actual:<10>. , ErrorStackTrace:   em Calc.Unit.Test.CalculadoraUnitTest.Subtrair() na C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\CalculadoraUnitTest.cs:linha 37
+.
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.161, 164847297055, testhost.x86.exe, No DataCollection Data set for the test case be316bd3-820f-9a10-ea16-e92564c61c39
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.166, 164847344742, testhost.x86.exe, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.166, 164847346767, testhost.x86.exe, TestRunCache: No test found corresponding to testResult '' in inProgress list.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.166, 164847347935, testhost.x86.exe, Sending test run statistics
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.167, 164847355128, testhost.x86.exe, Sending test run statistics
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.168, 164847361410, testhost.x86.exe, Executing test Dividir
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.171, 164847395947, testhost.x86.exe, Executed test Dividir
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.171, 164847397081, testhost.x86.exe, TestRunCache: InProgressTests is null
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.171, 164847398098, testhost.x86.exe, MSTestExecutor:Test Calc.Unit.Test.CalculadoraUnitTest.Dividir failed. ErrorMessage:Assert.AreEqual failed. Expected:<200>. Actual:<2>. , ErrorStackTrace:   em Calc.Unit.Test.CalculadoraUnitTest.Dividir() na C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\CalculadoraUnitTest.cs:linha 52
+.
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.171, 164847399033, testhost.x86.exe, No DataCollection Data set for the test case c4e64bae-a42a-81dc-6b93-3216b7d9a786
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.172, 164847400326, testhost.x86.exe, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.172, 164847401154, testhost.x86.exe, TestRunCache: No test found corresponding to testResult '' in inProgress list.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.172, 164847401880, testhost.x86.exe, Sending test run statistics
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.174, 164847420285, testhost.x86.exe, Sending test run statistics
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.175, 164847429663, testhost.x86.exe, Executing test Multiplicacao
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.176, 164847448314, testhost.x86.exe, Executed test Multiplicacao
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.176, 164847449312, testhost.x86.exe, TestRunCache: InProgressTests is null
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.177, 164847450611, testhost.x86.exe, MSTestExecutor:Test Calc.Unit.Test.CalculadoraUnitTest.Multiplicacao failed. ErrorMessage:Assert.AreEqual failed. Expected:<2>. Actual:<200>. , ErrorStackTrace:   em Calc.Unit.Test.CalculadoraUnitTest.Multiplicacao() na C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\CalculadoraUnitTest.cs:linha 67
+.
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.177, 164847451404, testhost.x86.exe, No DataCollection Data set for the test case c525d128-58e3-1627-690a-792292d84a1c
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.177, 164847452127, testhost.x86.exe, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.177, 164847452729, testhost.x86.exe, TestRunCache: No test found corresponding to testResult '' in inProgress list.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.177, 164847453391, testhost.x86.exe, Sending test run statistics
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.179, 164847471973, testhost.x86.exe, Sending test run statistics
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.179, 164847474935, testhost.x86.exe, Executing test SomarJuros
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.591, 164851595394, testhost.x86.exe, AssemblyResolver.OnResolve: Moq.resources, Version=4.12.0.0, Culture=pt-BR, PublicKeyToken=69f491c39445e920: Resolving assembly.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.592, 164851605601, testhost.x86.exe, AssemblyResolver.OnResolve: Moq.resources, Version=4.12.0.0, Culture=pt-BR, PublicKeyToken=69f491c39445e920: Failed to load assembly.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.592, 164851606896, testhost.x86.exe, AssemblyResolver: Resolving assembly: Moq.resources, Version=4.12.0.0, Culture=pt-BR, PublicKeyToken=69f491c39445e920.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.593, 164851609834, testhost.x86.exe, AssemblyResolver: Resolving assembly after applying policy: Moq.resources, Version=4.12.0.0, Culture=pt-BR, PublicKeyToken=69f491c39445e920.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.593, 164851614114, testhost.x86.exe, AssemblyResolver.OnResolve: Moq.resources, Version=4.12.0.0, Culture=pt-BR, PublicKeyToken=69f491c39445e920: Resolving assembly.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.593, 164851614862, testhost.x86.exe, AssemblyResolver.OnResolve: Moq.resources, Version=4.12.0.0, Culture=pt-BR, PublicKeyToken=69f491c39445e920: Resolved from cache.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.593, 164851615588, testhost.x86.exe, AssemblyResolver: Resolving assembly: Moq.resources, Version=4.12.0.0, Culture=pt-BR, PublicKeyToken=69f491c39445e920.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.593, 164851616797, testhost.x86.exe, AssemblyResolver: Resolving assembly after applying policy: Moq.resources, Version=4.12.0.0, Culture=pt-BR, PublicKeyToken=69f491c39445e920.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.594, 164851619484, testhost.x86.exe, AssemblyResolver: Resolved: Moq.resources, Version=4.12.0.0, Culture=pt-BR, PublicKeyToken=69f491c39445e920.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.594, 164851622941, testhost.x86.exe, AssemblyResolver: Moq.resources, Version=4.12.0.0, Culture=pt-BR, PublicKeyToken=69f491c39445e920: Failed to load assembly. Reason:System.IO.FileNotFoundException: Não foi possível carregar arquivo ou assembly 'Moq.resources, Version=4.12.0.0, Culture=pt-BR, PublicKeyToken=69f491c39445e920' ou uma de suas dependências. O sistema não pode encontrar o arquivo especificado.
+Nome do arquivo: 'Moq.resources, Version=4.12.0.0, Culture=pt-BR, PublicKeyToken=69f491c39445e920'
+   em System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   em System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   em System.Reflection.Assembly.Load(String assemblyString)
+   em Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.AssemblyResolver.OnResolveInternal(Object senderAppDomain, ResolveEventArgs args, Boolean isReflectionOnly)
+
+AVI: o log de associações de assembly está desativado.
+Para ativar o log de  falhas de assembly, defina o valor do Registro [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) como 1.
+Observação: há alguma penalidade para o desempenho associada ao log de falha de associação de assembly.
+Para desativar esse recurso, remova o valor do Registro [HKLM\Software\Microsoft\Fusion!EnableLog].
+ 
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.594, 164851624974, testhost.x86.exe, AssemblyResolver.OnResolve: Moq.resources, Version=4.12.0.0, Culture=pt-BR, PublicKeyToken=69f491c39445e920: Resolving assembly.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.594, 164851625666, testhost.x86.exe, AssemblyResolver.OnResolve: Moq.resources, Version=4.12.0.0, Culture=pt-BR, PublicKeyToken=69f491c39445e920: Resolved from cache.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.594, 164851626446, testhost.x86.exe, AssemblyResolver: Resolving assembly: Moq.resources, Version=4.12.0.0, Culture=pt-BR, PublicKeyToken=69f491c39445e920.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.595, 164851627723, testhost.x86.exe, AssemblyResolver: Resolving assembly after applying policy: Moq.resources, Version=4.12.0.0, Culture=pt-BR, PublicKeyToken=69f491c39445e920.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.595, 164851628458, testhost.x86.exe, AssemblyResolver: Resolved: Moq.resources, Version=4.12.0.0, Culture=pt-BR, PublicKeyToken=69f491c39445e920.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.596, 164851641233, testhost.x86.exe, AssemblyResolver.OnResolve: Moq.resources, Version=4.12.0.0, Culture=pt, PublicKeyToken=69f491c39445e920: Resolving assembly.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.596, 164851644361, testhost.x86.exe, AssemblyResolver.OnResolve: Moq.resources, Version=4.12.0.0, Culture=pt, PublicKeyToken=69f491c39445e920: Failed to load assembly.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.596, 164851645164, testhost.x86.exe, AssemblyResolver: Resolving assembly: Moq.resources, Version=4.12.0.0, Culture=pt, PublicKeyToken=69f491c39445e920.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.597, 164851647270, testhost.x86.exe, AssemblyResolver: Resolving assembly after applying policy: Moq.resources, Version=4.12.0.0, Culture=pt, PublicKeyToken=69f491c39445e920.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.597, 164851651258, testhost.x86.exe, AssemblyResolver.OnResolve: Moq.resources, Version=4.12.0.0, Culture=pt, PublicKeyToken=69f491c39445e920: Resolving assembly.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.597, 164851651972, testhost.x86.exe, AssemblyResolver.OnResolve: Moq.resources, Version=4.12.0.0, Culture=pt, PublicKeyToken=69f491c39445e920: Resolved from cache.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.597, 164851652596, testhost.x86.exe, AssemblyResolver: Resolving assembly: Moq.resources, Version=4.12.0.0, Culture=pt, PublicKeyToken=69f491c39445e920.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.597, 164851653946, testhost.x86.exe, AssemblyResolver: Resolving assembly after applying policy: Moq.resources, Version=4.12.0.0, Culture=pt, PublicKeyToken=69f491c39445e920.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.597, 164851654615, testhost.x86.exe, AssemblyResolver: Resolved: Moq.resources, Version=4.12.0.0, Culture=pt, PublicKeyToken=69f491c39445e920.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.598, 164851657875, testhost.x86.exe, AssemblyResolver: Moq.resources, Version=4.12.0.0, Culture=pt, PublicKeyToken=69f491c39445e920: Failed to load assembly. Reason:System.IO.FileNotFoundException: Não foi possível carregar arquivo ou assembly 'Moq.resources, Version=4.12.0.0, Culture=pt, PublicKeyToken=69f491c39445e920' ou uma de suas dependências. O sistema não pode encontrar o arquivo especificado.
+Nome do arquivo: 'Moq.resources, Version=4.12.0.0, Culture=pt, PublicKeyToken=69f491c39445e920'
+   em System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   em System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   em System.Reflection.Assembly.Load(String assemblyString)
+   em Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.AssemblyResolver.OnResolveInternal(Object senderAppDomain, ResolveEventArgs args, Boolean isReflectionOnly)
+
+AVI: o log de associações de assembly está desativado.
+Para ativar o log de  falhas de assembly, defina o valor do Registro [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) como 1.
+Observação: há alguma penalidade para o desempenho associada ao log de falha de associação de assembly.
+Para desativar esse recurso, remova o valor do Registro [HKLM\Software\Microsoft\Fusion!EnableLog].
+ 
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.598, 164851661059, testhost.x86.exe, AssemblyResolver.OnResolve: Moq.resources, Version=4.12.0.0, Culture=pt, PublicKeyToken=69f491c39445e920: Resolving assembly.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.598, 164851662355, testhost.x86.exe, AssemblyResolver.OnResolve: Moq.resources, Version=4.12.0.0, Culture=pt, PublicKeyToken=69f491c39445e920: Resolved from cache.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.598, 164851663028, testhost.x86.exe, AssemblyResolver: Resolving assembly: Moq.resources, Version=4.12.0.0, Culture=pt, PublicKeyToken=69f491c39445e920.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.598, 164851664391, testhost.x86.exe, AssemblyResolver: Resolving assembly after applying policy: Moq.resources, Version=4.12.0.0, Culture=pt, PublicKeyToken=69f491c39445e920.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.598, 164851665079, testhost.x86.exe, AssemblyResolver: Resolved: Moq.resources, Version=4.12.0.0, Culture=pt, PublicKeyToken=69f491c39445e920.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.603, 164851712931, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.603, 164851716500, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a: Failed to load assembly.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.604, 164851718839, testhost.x86.exe, AssemblyResolver: Resolving assembly: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.604, 164851721363, testhost.x86.exe, AssemblyResolver: Resolving assembly after applying policy: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.604, 164851726191, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.606, 164851739946, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a: Resolved from cache.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.606, 164851741223, testhost.x86.exe, AssemblyResolver: Resolving assembly: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.606, 164851743050, testhost.x86.exe, AssemblyResolver: Resolving assembly after applying policy: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.606, 164851744138, testhost.x86.exe, AssemblyResolver: Resolved: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.607, 164851747910, testhost.x86.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a: Failed to load assembly. Reason:System.IO.FileNotFoundException: Não foi possível carregar arquivo ou assembly 'Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a' ou uma de suas dependências. O sistema não pode encontrar o arquivo especificado.
+Nome do arquivo: 'Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a'
+   em System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   em System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   em System.Reflection.Assembly.Load(String assemblyString)
+   em Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.AssemblyResolver.OnResolveInternal(Object senderAppDomain, ResolveEventArgs args, Boolean isReflectionOnly)
+
+AVI: o log de associações de assembly está desativado.
+Para ativar o log de  falhas de assembly, defina o valor do Registro [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) como 1.
+Observação: há alguma penalidade para o desempenho associada ao log de falha de associação de assembly.
+Para desativar esse recurso, remova o valor do Registro [HKLM\Software\Microsoft\Fusion!EnableLog].
+ 
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.607, 164851749863, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.607, 164851750572, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a: Resolved from cache.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.607, 164851751278, testhost.x86.exe, AssemblyResolver: Resolving assembly: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.607, 164851752656, testhost.x86.exe, AssemblyResolver: Resolving assembly after applying policy: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.607, 164851753448, testhost.x86.exe, AssemblyResolver: Resolved: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt-BR, PublicKeyToken=b03f5f7f11d50a3a.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.610, 164851780209, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.610, 164851783943, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a: Failed to load assembly.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.610, 164851784853, testhost.x86.exe, AssemblyResolver: Resolving assembly: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.611, 164851787798, testhost.x86.exe, AssemblyResolver: Resolving assembly after applying policy: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.611, 164851792343, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a: Resolving assembly.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.611, 164851793112, testhost.x86.exe, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a: Resolved from cache.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.611, 164851793831, testhost.x86.exe, AssemblyResolver: Resolving assembly: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.611, 164851795182, testhost.x86.exe, AssemblyResolver: Resolving assembly after applying policy: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.611, 164851795876, testhost.x86.exe, AssemblyResolver: Resolved: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.612, 164851802735, testhost.x86.exe, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a: Failed to load assembly. Reason:System.IO.FileLoadException: Não foi possível carregar arquivo ou assembly 'Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a' ou uma de suas dependências. A definição do manifesto do assembly localizado não corresponde à referência do assembly. (Exceção de HRESULT: 0x80131040)
+Nome do arquivo: 'Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources, Version=14.0.0.0, Culture=pt, PublicKeyToken=b03f5f7f11d50a3a'
+   em System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   em System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   em System.Reflection.Assembly.Load(String assemblyString)
+   em Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.AssemblyResolver.OnResolveInternal(Object senderAppDomain, ResolveEventArgs args, Boolean isReflectionOnly)
+
+AVI: o log de associações de assembly está desativado.
+Para ativar o log de  falhas de assembly, defina o valor do Registro [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) como 1.
+Observação: há alguma penalidade para o desempenho associada ao log de falha de associação de assembly.
+Para desativar esse recurso, remova o valor do Registro [HKLM\Software\Microsoft\Fusion!EnableLog].
+ 
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.624, 164851927191, testhost.x86.exe, Executed test SomarJuros
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.625, 164851929047, testhost.x86.exe, TestRunCache: InProgressTests is null
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.625, 164851930109, testhost.x86.exe, MSTestExecutor:Test Calc.Unit.Test.CalculadoraJurosUnitTest.SomarJuros failed. ErrorMessage:Test method Calc.Unit.Test.CalculadoraJurosUnitTest.SomarJuros threw exception: 
+Moq.MockException: ICalculadora.Somar(10, 100) invocation failed with mock behavior Strict.
+All invocations on the mock must have a corresponding setup., ErrorStackTrace:    em Moq.Mock.Moq.IInterceptor.Intercept(Invocation invocation)
+   em Moq.CastleProxyFactory.Interceptor.Intercept(IInvocation invocation)
+   em Castle.DynamicProxy.AbstractInvocation.Proceed()
+   em Castle.Proxies.ICalculadoraProxy.Somar(Double primeiroNumero, Double segundoNumero)
+   em Calc.Business.CalculadoraJuros.SomarJuros(Double valor, Double jurosEmPorcentagem)
+   em Calc.Unit.Test.CalculadoraJurosUnitTest.SomarJuros() na C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\CalculadoraJurosUnitTest.cs:linha 39
+.
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.625, 164851931286, testhost.x86.exe, No DataCollection Data set for the test case 51c62726-77c4-ae4f-e60d-439c608401fd
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.625, 164851932005, testhost.x86.exe, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.625, 164851932616, testhost.x86.exe, TestRunCache: No test found corresponding to testResult '' in inProgress list.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.625, 164851933301, testhost.x86.exe, Sending test run statistics
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.626, 164851937785, testhost.x86.exe, Sending test run statistics
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.626, 164851940350, testhost.x86.exe, Executing test SomarJuros2_Exception
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.690, 164852580712, testhost.x86.exe, Executed test SomarJuros2_Exception
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.690, 164852582368, testhost.x86.exe, TestRunCache: InProgressTests is null
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.690, 164852583654, testhost.x86.exe, MSTestExecutor:Test Calc.Unit.Test.CalculadoraJurosUnitTest.SomarJuros2_Exception failed. ErrorMessage:Test method Calc.Unit.Test.CalculadoraJurosUnitTest.SomarJuros2_Exception threw exception: 
+Moq.MockException: 
+Expected invocation on the mock once, but was 0 times: _ => _.Somar(10, 1)
+
+Performed invocations:
+
+   Mock<ICalculadora:2> (_):
+
+      ICalculadora.Somar(10, 100)
+, ErrorStackTrace:    em Moq.Mock.Verify(Mock mock, LambdaExpression expression, Times times, String failMessage)
+   em Moq.Mock`1.Verify[TResult](Expression`1 expression, Func`1 times)
+   em Calc.Unit.Test.CalculadoraJurosUnitTest.SomarJuros2_Exception() na C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\CalculadoraJurosUnitTest.cs:linha 64
+.
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.690, 164852584632, testhost.x86.exe, No DataCollection Data set for the test case 72b6a49a-f71b-4056-9d9e-ad13a5c9f0d2
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.690, 164852585391, testhost.x86.exe, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.690, 164852586017, testhost.x86.exe, TestRunCache: No test found corresponding to testResult '' in inProgress list.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.690, 164852586645, testhost.x86.exe, Sending test run statistics
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.691, 164852591214, testhost.x86.exe, Sending test run statistics
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.691, 164852594299, testhost.x86.exe, Executing test MaiorQueUm_True
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.694, 164852626251, testhost.x86.exe, Executed test MaiorQueUm_True
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.694, 164852627546, testhost.x86.exe, TestRunCache: InProgressTests is null
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.695, 164852628694, testhost.x86.exe, MSTestExecutor:Test Calc.Unit.Test.ValidadorUnitTest.MaiorQueUm_True failed. ErrorMessage:Assert.AreEqual failed. Expected:<False>. Actual:<True>. , ErrorStackTrace:   em Calc.Unit.Test.ValidadorUnitTest.MaiorQueUm_True() na C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\ValidadorUnitTest.cs:linha 29
+.
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.695, 164852629572, testhost.x86.exe, No DataCollection Data set for the test case 49d9270c-51e7-a470-809d-61f600a99513
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.695, 164852630440, testhost.x86.exe, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 2924, 14, 2020/09/18, 21:45:22.695, 164852631070, testhost.x86.exe, TestRunCache: No test found corresponding to testResult '' in inProgress list.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.695, 164852631705, testhost.x86.exe, Sending test run statistics
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.696, 164852643959, testhost.x86.exe, Executing cleanup methods.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.706, 164852742794, testhost.x86.exe, Executed cleanup methods.
+TpTrace Information: 0 : 2924, 14, 2020/09/18, 21:45:22.706, 164852744548, testhost.x86.exe, Executed tests belonging to source C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\Calc.Unit.Test.dll
+TpTrace Information: 0 : 2924, 5, 2020/09/18, 21:45:22.721, 164852894302, testhost.x86.exe, Sending test run complete
+TpTrace Information: 0 : 2924, 10, 2020/09/18, 21:45:22.733, 164853009458, testhost.x86.exe, TestRequestHandler.ProcessRequests: received message: (TestSession.Terminate) -> null
+TpTrace Information: 0 : 2924, 10, 2020/09/18, 21:45:22.733, 164853010940, testhost.x86.exe, Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 2924, 1, 2020/09/18, 21:45:22.733, 164853015385, testhost.x86.exe, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:052100
+TpTrace Information: 0 : 2924, 1, 2020/09/18, 21:45:22.733, 164853016335, testhost.x86.exe, SocketClient: Stop: Cancellation requested. Stopping message loop.
+TpTrace Information: 0 : 2924, 10, 2020/09/18, 21:45:22.734, 164853018774, testhost.x86.exe, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:052100
+TpTrace Information: 0 : 2924, 10, 2020/09/18, 21:45:22.734, 164853019580, testhost.x86.exe, SocketClient: Stop: Cancellation requested. Stopping message loop.
+TpTrace Information: 0 : 2924, 10, 2020/09/18, 21:45:22.734, 164853020263, testhost.x86.exe, Closing the connection !
+TpTrace Information: 0 : 2924, 10, 2020/09/18, 21:45:22.734, 164853024225, testhost.x86.exe, SocketClient.PrivateStop: Stop communication from server endpoint: 127.0.0.1:052100, error:
