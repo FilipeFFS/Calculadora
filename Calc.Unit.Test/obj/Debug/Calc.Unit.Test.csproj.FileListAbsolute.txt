@@ -145,6 +145,9 @@ C:\Users\filipe.suyama\source\repos\Calculadora\Calc.Unit.Test\obj\Debug\Calc.Un
 C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\pt\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\pt\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\pt\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
 C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\Calc.Unit.Test.dll
 C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\Calc.Unit.Test.pdb
 C:\Users\Cliente\source\repos\Calculadora\Calc.Unit.Test\bin\Debug\Microsoft.Win32.Primitives.dll

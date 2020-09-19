@@ -41,5 +41,18 @@ namespace Calc.Unit.Test
             //Assert
             Assert.AreEqual(response, false);
         }
+
+        [TestMethod]
+        public void MaiorQueUm()
+        {
+            //Arrange
+            int valor = 1;
+
+            //Act
+            var response = _validador.MaiorQueUm(valor);
+
+            //Assert
+            Assert.AreEqual(response, true);
+        }
     }
 }

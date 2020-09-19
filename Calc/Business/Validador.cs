@@ -6,7 +6,7 @@ namespace Calc.Business
     {
         public bool MaiorQueUm(double valor)
         {
-            return (valor > 1) ? true : false;
+            return (valor >= 1) ? true : false;
         }
     }
 }
